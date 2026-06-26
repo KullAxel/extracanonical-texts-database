@@ -1,28 +1,128 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Extracanonical Texts Reader</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Extracanonical Texts • Study Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      content: [],
+      theme: {
+        extend: {}
+      }
+    }
+  </script>
 </head>
-<body>
-  <header>
-    <h1>Extracanonical Texts Reader</h1>
-    <p>Browse the v0.3 catalog, search metadata, and track recommended English translations / project text status.</p>
-  </header>
-  <main>
-    <section class="controls">
-      <input id="search" type="search" placeholder="Search title, category, summary, translation…" autofocus />
-      <select id="category"><option value="">All categories</option></select>
-      <select id="status"><option value="">All text statuses</option></select>
-    </section>
-    <section id="stats" class="stats"></section>
-    <section id="results" class="results"></section>
-  </main>
-  <footer>
-    <p>Full text ingestion is staged for rights-cleared/public-domain/open-license texts. Metadata is not a license grant.</p>
-  </footer>
+<body class="bg-zinc-950 text-zinc-200">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <div class="w-80 bg-zinc-900 border-r border-zinc-800 flex flex-col">
+      <div class="p-4 border-b border-zinc-800">
+        <h1 class="text-2xl font-semibold text-emerald-400">Extracanonical</h1>
+        <p class="text-zinc-400 text-sm">Study Platform v0.4</p>
+      </div>
+      <div class="p-4">
+        <input id="search" type="text" placeholder="Search documents..." 
+               class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500">
+      </div>
+      <div class="px-4 pb-2">
+        <select id="category" class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-2 text-sm">
+          <option value="">All Categories</option>
+        </select>
+      </div>
+      <div id="document-list" class="flex-1 overflow-auto px-2 space-y-0.5 text-sm"></div>
+      <div class="p-4 border-t border-zinc-800 text-xs text-zinc-500">
+        115 documents • Public domain &amp; cleared texts only
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="flex-1 flex flex-col">
+      <!-- Top bar -->
+      <div class="h-14 border-b border-zinc-800 bg-zinc-900 flex items-center px-6 justify-between">
+        <div id="current-document" class="font-medium text-lg text-white">Select a document to begin studying</div>
+        <div class="flex items-center gap-4 text-sm">
+          <a href="https://github.com/KullAxel/extracanonical-texts-database" target="_blank" 
+             class="text-zinc-400 hover:text-white flex items-center gap-1">
+            <span>GitHub</span>
+          </a>
+          <div class="h-4 w-px bg-zinc-700"></div>
+          <span id="version-count" class="text-emerald-400 font-mono text-xs">0 versions</span>
+        </div>
+      </div>
+
+      <!-- Viewer -->
+      <div class="flex-1 p-6 overflow-auto bg-zinc-950" id="viewer">
+        <div class="max-w-5xl mx-auto">
+          <div id="welcome" class="py-20 text-center">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-zinc-900 rounded-2xl mb-6">
+              <span class="text-4xl">📜</span>
+            </div>
+            <h2 class="text-3xl font-light text-zinc-400 mb-3">Welcome to the Extracanonical Study Platform</h2>
+            <p class="max-w-md mx-auto text-zinc-500">Select a document from the sidebar to view original languages, literal translations, simple English versions, metadata, and cross-references.</p>
+            <div class="mt-12 grid grid-cols-3 gap-6 text-left max-w-2xl mx-auto">
+              <div class="bg-zinc-900 p-5 rounded-3xl">
+                <div class="text-emerald-400 text-xl mb-2">📖</div>
+                <div class="font-medium">Literal</div>
+                <div class="text-xs text-zinc-500">Scholarly accurate translations</div>
+              </div>
+              <div class="bg-zinc-900 p-5 rounded-3xl">
+                <div class="text-sky-400 text-xl mb-2">📝</div>
+                <div class="font-medium">Simple</div>
+                <div class="text-xs text-zinc-500">Easy-to-read modern English</div>
+              </div>
+              <div class="bg-zinc-900 p-5 rounded-3xl">
+                <div class="text-amber-400 text-xl mb-2">🏛️</div>
+                <div class="font-medium">Original</div>
+                <div class="text-xs text-zinc-500">Hebrew, Greek, Coptic where available</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="document-view" class="hidden">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bar -->
+      <div class="h-11 bg-zinc-900 border-t border-zinc-800 flex items-center px-6 text-xs text-zinc-500">
+        <div class="flex-1">Data from scholarly sources • Rights-cleared texts only • Built on the extracanonical-texts-database project</div>
+        <div class="flex items-center gap-6">
+          <a href="#" onclick="showHelp()" class="hover:text-white">Help</a>
+          <a href="https://github.com/KullAxel/extracanonical-texts-database" target="_blank" class="hover:text-white">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help modal -->
+  <div id="help-modal" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+    <div class="bg-zinc-900 rounded-3xl max-w-lg w-full mx-4 p-8">
+      <h2 class="text-2xl mb-6">How to use this platform</h2>
+      <div class="space-y-6 text-zinc-400">
+        <div>
+          <div class="font-medium text-white mb-2">1. Browse &amp; Search</div>
+          <p>Use the sidebar to filter by category or search across all documents, summaries, and translations.</p>
+        </div>
+        <div>
+          <div class="font-medium text-white mb-2">2. Parallel Versions</div>
+          <p>Click a document to open the study view. Use the tabs to switch between Literal, Simple, and Original (when available).</p>
+        </div>
+        <div>
+          <div class="font-medium text-white mb-2">3. Study Tools</div>
+          <p>Metadata shows canonical status across traditions, related texts, sources, and scholarly notes. Cross-references are linked where available.</p>
+        </div>
+      </div>
+      <button onclick="hideHelp()" 
+              class="mt-8 w-full bg-emerald-600 hover:bg-emerald-500 transition-colors py-3 rounded-2xl font-medium">
+        Got it
+      </button>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>

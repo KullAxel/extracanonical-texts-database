@@ -70,7 +70,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes/Ehrman Loeb; CCEL
   scholarly_notes: Shows Roman authority and early ecclesiology
-  sources: &id001
+  sources:
   - title: 'The Apostolic Fathers: Greek Texts and English Translations'
     author_or_institution: Michael W. Holmes, ed. and trans.
     url_or_citation: Baker Academic, 3rd ed., 2007
@@ -94,6 +94,23 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-001.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-001-literal.md
+    status: available
+    translator: Roberts and Donaldson (modernized)
+    source_edition: Ante-Nicene Fathers public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 4
+  - type: simple
+    path: texts/versions/AF-001-simple.md
+    status: available
+    translator: Simplified by Hermes for study
+    source_edition: Simplified from public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 5
 - id: AF-002
   title_standard: 2 Clement
   title_alternatives: []
@@ -121,7 +138,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes/Ehrman
   scholarly_notes: Early sermon and Jesus-tradition witness
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -163,7 +190,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes; Ehrman; public translations
   scholarly_notes: Crucial for early liturgy, ethics, prophets
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -177,6 +214,23 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-003.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-003-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/AF-003-simple.md
+    status: available
+    translator: Simplified for modern readers
+    source_edition: Based on public domain text
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-004
   title_standard: Epistle of Barnabas
   title_alternatives: []
@@ -204,7 +258,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Shows radical Christian rereading of Torah
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -218,6 +282,15 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-004.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-004-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-005
   title_standard: Shepherd of Hermas
   title_alternatives: []
@@ -246,7 +319,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes; Ehrman; Lake
   scholarly_notes: One of the most popular noncanonical early Christian books
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -260,6 +343,15 @@ texts:
       be staged as a legal fallback if desired.
   project_text_path: texts/english/AF-005.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-005-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-006
   title_standard: Epistles of Ignatius of Antioch
   title_alternatives: []
@@ -287,7 +379,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Important but generally not “scripture”; ecclesiology and martyrdom
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -328,7 +430,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Early martyr theology and scriptural reception
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -370,7 +482,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Holmes/Ehrman
   scholarly_notes: 'Borderline: significant theologically but manuscript evidence is thin'
-  sources: *id001
+  sources:
+  - title: 'The Apostolic Fathers: Greek Texts and English Translations'
+    author_or_institution: Michael W. Holmes, ed. and trans.
+    url_or_citation: Baker Academic, 3rd ed., 2007
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Apostolic Fathers
+    author_or_institution: Bart D. Ehrman, ed. and trans.
+    url_or_citation: Loeb Classical Library, Harvard University Press, 2003
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
       ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
@@ -410,7 +532,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha; Qumran editions
   scholarly_notes: Important for popular piety, angels, demons, charity
-  sources: &id002
+  sources:
   - title: A New English Translation of the Septuagint
     author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
     url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
@@ -463,7 +585,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV; Vulgate
   scholarly_notes: Model of pious resistance and gendered heroism
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -506,7 +638,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha
   scholarly_notes: Shows Greek Jewish discomfort with secular tone of Hebrew Esther
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -549,7 +691,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV; critical editions
   scholarly_notes: Key for Hellenistic Jewish theology of immortality and Wisdom
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -594,7 +746,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Pancratius Beentjes Hebrew; NETS; NRSV
   scholarly_notes: Major witness to pre-rabbinic wisdom and canon consciousness
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -637,7 +799,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Shows diasporic repentance and anti-idol polemic
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -681,7 +853,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Important for liturgy and anti-idolatry storytelling
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -724,7 +906,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Primary historical source for Maccabean revolt
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -767,7 +959,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Key for resurrection, martyrdom, intercession for dead
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -810,7 +1012,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha in some editions
   scholarly_notes: Diaspora persecution and divine deliverance
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -853,7 +1065,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha
   scholarly_notes: Bridges Jewish martyrdom and Greco-Roman moral philosophy
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -898,7 +1120,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Textual witness to fluid Ezra traditions
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -942,7 +1174,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Stone; NRSV Apocrypha
   scholarly_notes: Central post-destruction Jewish theodicy
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -985,7 +1227,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Influential penitential theology
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -1028,7 +1280,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DSS editions; NETS
   scholarly_notes: Shows Psalter boundaries remained fluid
-  sources: *id002
+  sources:
+  - title: A New English Translation of the Septuagint
+    author_or_institution: Albert Pietersma and Benjamin G. Wright, eds.
+    url_or_citation: Oxford University Press, 2007; https://ccat.sas.upenn.edu/nets/edition/
+    access_date: '2026-06-25'
+    reliability_type: critical_edition
+  - title: The New Oxford Annotated Bible with Apocrypha
+    author_or_institution: Oxford University Press
+    url_or_citation: NRSV / NRSVUE annotated study Bible editions
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
       G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
@@ -1073,15 +1335,13 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DSS Study Edition; DJD; Leon Levy
   scholarly_notes: 'Shows lived theology: predestination, dualism, purity, communal authority'
-  sources: &id003
-  - &id004
-    title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
     author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
     url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
     access_date: '2026-06-25'
     reliability_type: manuscript_catalog
-  - &id005
-    title: The Dead Sea Scrolls Study Edition
+  - title: The Dead Sea Scrolls Study Edition
     author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
     url_or_citation: Brill / Eerdmans, 1997–1998
     access_date: null
@@ -1129,7 +1389,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Schechter fragments; DJD; DSS Study Edition
   scholarly_notes: Major bridge between Qumran and Genizah; shows alternative Jewish law
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1173,7 +1443,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DSS Study Edition; DJD
   scholarly_notes: Key evidence for angelic-war cosmology
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1217,7 +1497,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DSS Study Edition; DJD
   scholarly_notes: Shows devotional theology outside Psalter
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1261,7 +1551,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DSS Study Edition; Leon Levy
   scholarly_notes: Crucial for how ancient groups read scripture as directly predictive
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1304,7 +1604,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Yadin; DJD; DSS Study Edition
   scholarly_notes: One of the strongest examples of “new Torah” authority outside canon
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1348,7 +1658,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DJD; Fitzmyer; Leon Levy
   scholarly_notes: Shows imaginative patriarchal expansion and Aramaic scriptural storytelling
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1391,7 +1711,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DJD; Qimron-Strugnell
   scholarly_notes: Important for Second Temple legal diversity and Pauline-background debates
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1434,7 +1764,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DJD; Newsom
   scholarly_notes: Major precursor for Jewish mystical/heavenly liturgy traditions
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1476,7 +1816,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Greenfield-Stone-Eshel; DJD
   scholarly_notes: Priesthood as heavenly wisdom; important for Levi traditions
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1518,7 +1868,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DJD; Reeves
   scholarly_notes: Shows international afterlife of Enochic myth
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1560,7 +1920,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: DJD
   scholarly_notes: Maps divine-city imagination before Revelation
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1610,8 +1980,16 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD; Leon Levy DSS Digital Library record where available.
   scholarly_notes: Added in v0.2 as a priority Qumran rule text.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1659,8 +2037,16 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD; Leon Levy DSS Digital Library record where available.
   scholarly_notes: Added in v0.2 as companion to Community Rule material.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1707,8 +2093,16 @@ texts:
     available.
   scholarly_notes: Borderline for “religious text” but important as a major Qumran manuscript.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1759,8 +2153,16 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD; Leon Levy DSS Digital Library record where available.
   scholarly_notes: High-priority v0.2 addition for messianic/apocalyptic exegesis.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1810,8 +2212,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition; specialist studies by Strugnell/Harrington and others.
   scholarly_notes: Important for the intersection of wisdom and apocalyptic “mystery.”
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1859,8 +2269,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition.
   scholarly_notes: Shows fluid Daniel-adjacent court legend traditions in Aramaic.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1911,8 +2329,16 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD; editions of 11QPsa.
   scholarly_notes: Use as a control for fluid canonical boundaries rather than a single text only.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -1960,8 +2386,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition.
   scholarly_notes: Added to strengthen Qumran liturgical coverage.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2008,8 +2442,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition.
   scholarly_notes: Added as a pesher beyond Habakkuk.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2058,8 +2500,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition.
   scholarly_notes: Added as part of pesharim coverage beyond Habakkuk.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2110,8 +2560,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition; calendrical studies by Talmon, Ben-Dov, and others.
   scholarly_notes: Record groups a family of related documents; item-level split is a future task.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2161,8 +2619,16 @@ texts:
   modern_editions_translations_digital_access: DJD; DSS Study Edition.
   scholarly_notes: Added as a key thematic exegetical text.
   sources:
-  - *id004
-  - *id005
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2212,7 +2678,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Leon Levy DSS Digital Library; DJD; Tov
   scholarly_notes: 'Essential baseline: the community’s “Bible” was not identical to later fixed rabbinic form'
-  sources: *id003
+  sources:
+  - title: 'The Dead Sea Scrolls Digital Library: Scrolls Content'
+    author_or_institution: Israel Antiquities Authority / Leon Levy Dead Sea Scrolls Digital Library
+    url_or_citation: https://www.deadseascrolls.org.il/learn-about-the-scrolls/scrolls-content?locale=en_US
+    access_date: '2026-06-25'
+    reliability_type: manuscript_catalog
+  - title: The Dead Sea Scrolls Study Edition
+    author_or_institution: Florentino García Martínez and Eibert J. C. Tigchelaar
+    url_or_citation: Brill / Eerdmans, 1997–1998
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
       2 vols. (Brill/Eerdmans, 1997–1998).
@@ -2256,15 +2732,13 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton; Waldstein-Wisse
   scholarly_notes: Central mythic map of classic gnostic cosmology
-  sources: &id006
-  - &id007
-    title: The Nag Hammadi Library in English
+  sources:
+  - title: The Nag Hammadi Library in English
     author_or_institution: James M. Robinson, gen. ed.
     url_or_citation: HarperOne, revised ed., 1990
     access_date: null
     reliability_type: critical_edition
-  - &id008
-    title: The Gnostic Scriptures
+  - title: The Gnostic Scriptures
     author_or_institution: Bentley Layton, ed. and trans.
     url_or_citation: Doubleday, 1987
     access_date: null
@@ -2311,7 +2785,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Female revealer/Norea and archon cosmology
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2354,7 +2838,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Encyclopedic gnostic cosmology
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2398,7 +2892,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Key for Sethian identity and ritual
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2441,7 +2945,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Possible non-Christian gnostic apocalypse
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2484,7 +2998,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Layton; Nag Hammadi
   scholarly_notes: Shows contemplative ascent practice
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2527,7 +3051,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library; Turner
   scholarly_notes: Important for interaction of gnosticism and Platonism
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2570,7 +3104,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Negative theology and ascent
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2613,7 +3157,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Feminine divine voice and salvation by awakening
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2656,7 +3210,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Striking divine feminine/self-revelation text
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2699,7 +3263,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Radical alternative interpretation of crucifixion
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2742,7 +3316,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Dissenting authority polemic
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2785,7 +3369,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Dialogic revelation form
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2828,7 +3422,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Shows pre-/non-Christian gnostic speculation possibly adapted by Christians
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2871,7 +3475,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Schmidt/MacDermot; public translations
   scholarly_notes: Major late antique gnostic compendium outside Nag Hammadi
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2914,7 +3528,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Schmidt/MacDermot
   scholarly_notes: Evidence for ritualized ascent/salvation technology
-  sources: *id006
+  sources:
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -2964,8 +3588,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3015,8 +3647,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3067,8 +3707,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3118,8 +3766,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3169,8 +3825,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3220,8 +3884,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3271,8 +3943,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3322,8 +4002,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3373,8 +4061,16 @@ texts:
   scholarly_notes: Added in v0.2 to expand Nag Hammadi tractate coverage; item-level dating and witnesses need further source
     pass.
   sources:
-  - *id007
-  - *id008
+  - title: The Nag Hammadi Library in English
+    author_or_institution: James M. Robinson, gen. ed.
+    url_or_citation: HarperOne, revised ed., 1990
+    access_date: null
+    reliability_type: critical_edition
+  - title: The Gnostic Scriptures
+    author_or_institution: Bentley Layton, ed. and trans.
+    url_or_citation: Doubleday, 1987
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
       supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
@@ -3417,7 +4113,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Barrier; Burke
   scholarly_notes: Major for women, asceticism, baptism, martyrdom
-  sources: &id009
+  sources:
   - title: The Apocryphal New Testament
     author_or_institution: J. K. Elliott, ed.
     url_or_citation: Oxford University Press, 1993
@@ -3468,7 +4164,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Schneemelcher
   scholarly_notes: Source of Peter’s upside-down crucifixion
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3509,7 +4215,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Schneemelcher
   scholarly_notes: Key for non-mainstream Christology and ritual hymn
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3550,7 +4266,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Klijn
   scholarly_notes: Major for Syriac Christianity and soul-descent myth
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3591,7 +4317,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott
   scholarly_notes: Shows ascetic apostolic ideal
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3632,7 +4368,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Buchholz
   scholarly_notes: Major source for Christian heaven/hell imagination
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3674,7 +4420,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Silverstein-Hilhorst
   scholarly_notes: Huge influence on medieval afterlife literature
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3715,7 +4471,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Hills; Elliott
   scholarly_notes: Shows proto-orthodox apocrypha could also be anti-gnostic
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3756,7 +4522,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Armenian editions
   scholarly_notes: Shows canon pressure created Pauline-like countertexts
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3797,7 +4573,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Vulgate appendix
   scholarly_notes: Evidence of attempts to fill canonical gaps
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3838,7 +4624,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott
   scholarly_notes: Shows desire to validate Christianity via classical authority
-  sources: *id009
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'New Testament Apocrypha: More Noncanonical Scriptures'
+    author_or_institution: Tony Burke et al., eds.
+    url_or_citation: Eerdmans, 2016–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
       by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
@@ -3879,7 +4675,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton; Gathercole
   scholarly_notes: Major witness to sayings tradition and nonnarrative Jesus devotion
-  sources: &id010
+  sources:
   - title: The Apocryphal New Testament
     author_or_institution: J. K. Elliott, ed.
     url_or_citation: Oxford University Press, 1993
@@ -3929,7 +4725,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Ehrman/Pleše; Elliott
   scholarly_notes: Important for passion tradition development
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -3971,7 +4777,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Burke; public translations
   scholarly_notes: 'Source for Marian traditions: parents Joachim/Anna, perpetual virginity imagery'
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4012,7 +4828,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Elliott; Burke
   scholarly_notes: Shows popular curiosity about divine childhood
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4053,7 +4879,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: King; Tuckett; Nag Hammadi-adjacent editions
   scholarly_notes: Key for gender, revelation, authority debates
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4094,7 +4930,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Critical edition by Kasser/Meyer/Wurst; National Geographic edition
   scholarly_notes: Important for dissenting soteriology and anti-sacrificial polemic
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4135,7 +4981,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton
   scholarly_notes: Evidence for Valentinian ritual theology
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4176,7 +5032,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton
   scholarly_notes: Classic Valentinian theology of revelation
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4218,7 +5084,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Schneemelcher; Klijn; Elliott
   scholarly_notes: Important for diversity of Jewish Christianity
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4260,7 +5136,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Papyrus editions; Ehrman/Pleše
   scholarly_notes: Shows early gospel-like textual fluidity
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4301,7 +5187,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Smith; Carlson; Brown debates
   scholarly_notes: Research gap/borderline; include only as disputed case, not established text
-  sources: *id010
+  sources:
+  - title: The Apocryphal New Testament
+    author_or_institution: J. K. Elliott, ed.
+    url_or_citation: Oxford University Press, 1993
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'The Apocryphal Gospels: Texts and Translations'
+    author_or_institution: Bart D. Ehrman and Zlatko Pleše, eds. and trans.
+    url_or_citation: Oxford University Press, 2011
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
       University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
@@ -4343,7 +5239,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Nickelsburg-VanderKam; Ethiopic editions; DSS
   scholarly_notes: Foundational for angels, demons, judgment, cosmic geography
-  sources: &id011
+  sources:
   - title: The Old Testament Pseudepigrapha
     author_or_institution: James H. Charlesworth, ed.
     url_or_citation: Doubleday, 1983–1985
@@ -4396,7 +5292,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: VanderKam; Charlesworth; DSS
   scholarly_notes: Shows Torah as angelically mediated cosmic chronology
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: James C. VanderKam, The Book of Jubilees (critical translation/commentary), with Charlesworth
       OTP as anthology access.
@@ -4436,7 +5342,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Hollander-de Jonge
   scholarly_notes: Important for ethics, demonology, messianism
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4479,7 +5395,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Tromp
   scholarly_notes: Post-Hasmonean apocalyptic historiography
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4522,7 +5448,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Stone
   scholarly_notes: Source for fall, Satan, death traditions
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4564,7 +5500,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: R.B. Wright in Charlesworth; critical editions
   scholarly_notes: Key pre-Christian messianic expectation source
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4606,7 +5552,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Lattke
   scholarly_notes: Important for early mystical soteriology
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4649,7 +5605,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Collins; Charlesworth
   scholarly_notes: Shows apologetic monotheism in Greco-Roman idiom
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4691,7 +5657,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Kulik; Charlesworth
   scholarly_notes: Major angelomorphic and anti-idol apocalypse
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4734,7 +5710,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Klijn; Gurtner
   scholarly_notes: Central witness to Jewish theodicy after temple destruction
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4777,7 +5763,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Harlow; Charlesworth
   scholarly_notes: Heavenly cosmology and moral order
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4819,7 +5815,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth; Norelli
   scholarly_notes: Key for early layered heavens and angelomorphic Christology
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4861,7 +5867,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Burchard; Kraemer
   scholarly_notes: Conversion, divine visitation, marriage symbolism
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4903,7 +5919,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Charlesworth
   scholarly_notes: Angels and cosmic ascent traditions
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4946,7 +5972,17 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Odeberg; Alexander in OTP
   scholarly_notes: Vital for Metatron and merkavah theology, slightly later than target period
-  sources: *id011
+  sources:
+  - title: The Old Testament Pseudepigrapha
+    author_or_institution: James H. Charlesworth, ed.
+    url_or_citation: Doubleday, 1983–1985
+    access_date: null
+    reliability_type: critical_edition
+  - title: 'Old Testament Pseudepigrapha: More Noncanonical Scriptures'
+    author_or_institution: Richard Bauckham, James R. Davila, and Alexander Panayotov, eds.
+    url_or_citation: Eerdmans, 2013–
+    access_date: null
+    reliability_type: critical_edition
   translation_access:
     recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
       supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
@@ -4992,7 +6028,7 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Tal/Florentin editions; comparative apparatus
   scholarly_notes: Shows “canon” can be same five books but different sacred text form
-  sources: &id012
+  sources:
   - title: Comparative editions and specialist studies noted per entry
     author_or_institution: Various academic editors
     url_or_citation: See entry notes and bibliography; needs item-level expansion
@@ -5038,7 +6074,12 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Macdonald edition
   scholarly_notes: Important for non-rabbinic Israelite theology
-  sources: *id012
+  sources:
+  - title: Comparative editions and specialist studies noted per entry
+    author_or_institution: Various academic editors
+    url_or_citation: See entry notes and bibliography; needs item-level expansion
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
       Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
@@ -5079,7 +6120,12 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Lidzbarski; Gelbert; modern translations
   scholarly_notes: Related comparative evidence for late antique baptismal gnosis
-  sources: *id012
+  sources:
+  - title: Comparative editions and specialist studies noted per entry
+    author_or_institution: Various academic editors
+    url_or_citation: See entry notes and bibliography; needs item-level expansion
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
       Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
@@ -5121,7 +6167,12 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Schäfer Synopse; Davila
   scholarly_notes: Important continuation of apocalyptic ascent into rabbinic-era mysticism
-  sources: *id012
+  sources:
+  - title: Comparative editions and specialist studies noted per entry
+    author_or_institution: Various academic editors
+    url_or_citation: See entry notes and bibliography; needs item-level expansion
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
       Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
@@ -5163,7 +6214,12 @@ texts:
   related_texts: []
   modern_editions_translations_digital_access: Hayman; Gruenwald
   scholarly_notes: Foundational for later Jewish cosmology/Kabbalah, date debated
-  sources: *id012
+  sources:
+  - title: Comparative editions and specialist studies noted per entry
+    author_or_institution: Various academic editors
+    url_or_citation: See entry notes and bibliography; needs item-level expansion
+    access_date: null
+    reliability_type: academic_reference
   translation_access:
     recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
       Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'

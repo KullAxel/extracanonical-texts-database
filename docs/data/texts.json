@@ -97,7 +97,29 @@
         "translation_notes": "Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations are public-domain alternatives but not always the best literal modern rendering."
       },
       "project_text_path": "texts/english/AF-001.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-001-literal.md",
+          "status": "available",
+          "translator": "Roberts and Donaldson (modernized)",
+          "source_edition": "Ante-Nicene Fathers public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-001-simple.md",
+          "status": "available",
+          "translator": "Simplified by Hermes for study",
+          "source_edition": "Simplified from public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 5
+        }
+      ]
     },
     {
       "id": "AF-002",
@@ -213,7 +235,29 @@
         "translation_notes": "Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations are public-domain alternatives but not always the best literal modern rendering."
       },
       "project_text_path": "texts/english/AF-003.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-003-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain text",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-004",
@@ -270,7 +314,19 @@
         "translation_notes": "Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations are public-domain alternatives but not always the best literal modern rendering."
       },
       "project_text_path": "texts/english/AF-004.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-004-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-005",
@@ -327,7 +383,19 @@
         "translation_notes": "Holmes is the recommended modern study translation; the public-domain Lightfoot/ANF translation can be staged as a legal fallback if desired."
       },
       "project_text_path": "texts/english/AF-005.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-005-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-006",

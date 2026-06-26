@@ -7,7 +7,29 @@
       "title": "1 Clement",
       "path": "texts/english/AF-001.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison."
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-001-literal.md",
+          "status": "available",
+          "translator": "Roberts and Donaldson (modernized)",
+          "source_edition": "Ante-Nicene Fathers public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-001-simple.md",
+          "status": "available",
+          "translator": "Simplified by Hermes for study",
+          "source_edition": "Simplified from public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 5
+        }
+      ]
     },
     {
       "id": "AF-002",
@@ -21,21 +43,67 @@
       "title": "Didache",
       "path": "texts/english/AF-003.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison."
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-003-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain text",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-004",
       "title": "Epistle of Barnabas",
       "path": "texts/english/AF-004.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison."
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-004-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-005",
       "title": "Shepherd of Hermas",
       "path": "texts/english/AF-005.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison."
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-005-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "AF-006",
@@ -807,5 +875,6 @@
       "status": "stub_pending_rights_or_source_ingestion",
       "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
     }
-  ]
+  ],
+  "updated_on": "2026-06-25"
 }
