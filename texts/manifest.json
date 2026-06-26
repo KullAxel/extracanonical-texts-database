@@ -105,6 +105,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -121,6 +131,16 @@
           "status": "available",
           "translator": "Roberts-Donaldson public domain",
           "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
@@ -143,6 +163,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-006-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -162,6 +192,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-007-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -178,6 +218,16 @@
           "status": "available",
           "translator": "Roberts-Donaldson public domain",
           "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
@@ -218,14 +268,48 @@
       "title": "Judith",
       "path": "texts/english/DC-002.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-002-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-003",
       "title": "Greek Esther Additions",
       "path": "texts/english/DC-003.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-004",
@@ -261,56 +345,172 @@
       "title": "Sirach",
       "path": "texts/english/DC-005.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-006",
       "title": "Baruch and Letter of Jeremiah",
       "path": "texts/english/DC-006.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-006-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-007",
       "title": "Additions to Daniel: Prayer of Azariah",
       "path": "texts/english/DC-007.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-007-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-008",
       "title": "1 Maccabees",
       "path": "texts/english/DC-008.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-008-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-009",
       "title": "2 Maccabees",
       "path": "texts/english/DC-009.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-009-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-010",
       "title": "3 Maccabees",
       "path": "texts/english/DC-010.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-010-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-011",
       "title": "4 Maccabees",
       "path": "texts/english/DC-011.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-011-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-012",
       "title": "1 Esdras",
       "path": "texts/english/DC-012.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-012-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-013",
@@ -324,7 +524,19 @@
       "title": "Prayer of Manasseh",
       "path": "texts/english/DC-014.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-014-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-015",
@@ -688,14 +900,38 @@
       "title": "Acts of Paul and Thecla",
       "path": "texts/english/NTA-A-001.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-001-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-A-002",
       "title": "Acts of Peter",
       "path": "texts/english/NTA-A-002.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-A-003",
@@ -765,35 +1001,125 @@
       "title": "Gospel of Thomas",
       "path": "texts/english/NTA-G-001.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Simon Gathercole, The Gospel of Thomas: Introduction and Commentary, or Ehrman/Pleše for anthology access; compare Robinson/Layton for Nag Hammadi context."
+      "recommended_english_translation": "Simon Gathercole, The Gospel of Thomas: Introduction and Commentary, or Ehrman/Pleše for anthology access; compare Robinson/Layton for Nag Hammadi context.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain / study base",
+          "source_edition": "Public domain style",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-001-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-002",
       "title": "Gospel of Peter",
       "path": "texts/english/NTA-G-002.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-003",
       "title": "Protoevangelium of James",
       "path": "texts/english/NTA-G-003.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-004",
       "title": "Infancy Gospel of Thomas",
       "path": "texts/english/NTA-G-004.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-004-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-005",
       "title": "Gospel of Mary",
       "path": "texts/english/NTA-G-005.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-006",
@@ -842,21 +1168,57 @@
       "title": "1 Enoch",
       "path": "texts/english/PSE-001.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "George W. E. Nickelsburg and James C. VanderKam, 1 Enoch: The Hermeneia Translation (Fortress), with Charlesworth OTP for anthology access."
+      "recommended_english_translation": "George W. E. Nickelsburg and James C. VanderKam, 1 Enoch: The Hermeneia Translation (Fortress), with Charlesworth OTP for anthology access.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-002",
       "title": "Jubilees",
       "path": "texts/english/PSE-002.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "James C. VanderKam, The Book of Jubilees (critical translation/commentary), with Charlesworth OTP as anthology access."
+      "recommended_english_translation": "James C. VanderKam, The Book of Jubilees (critical translation/commentary), with Charlesworth OTP as anthology access.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-002-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-003",
       "title": "Testaments of the Twelve Patriarchs",
       "path": "texts/english/PSE-003.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-003-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-004",

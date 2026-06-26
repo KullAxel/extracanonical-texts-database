@@ -347,6 +347,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -413,6 +423,16 @@
           "status": "available",
           "translator": "Roberts-Donaldson public domain",
           "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
@@ -485,6 +505,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-006-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -554,6 +584,16 @@
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-007-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
         }
       ]
     },
@@ -620,6 +660,16 @@
           "status": "available",
           "translator": "Roberts-Donaldson public domain",
           "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
           "rights_status": "public_domain",
           "license": "Public domain",
           "segment_count": 3
@@ -760,7 +810,29 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-002.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-002-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-003",
@@ -817,7 +889,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-003.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-004",
@@ -956,7 +1040,29 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-005.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-006",
@@ -1013,7 +1119,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-006.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-006-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-007",
@@ -1072,7 +1190,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-007.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-007-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-008",
@@ -1129,7 +1259,29 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-008.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-008-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-009",
@@ -1186,7 +1338,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-009.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-009-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-010",
@@ -1243,7 +1407,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-010.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-010-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-011",
@@ -1300,7 +1476,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-011.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-011-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-012",
@@ -1360,7 +1548,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-012.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-012-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-013",
@@ -1476,7 +1676,19 @@
         "translation_notes": "NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books; compare with NRSVUE for readability."
       },
       "project_text_path": "texts/english/DC-014.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-014-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-015",
@@ -4556,7 +4768,19 @@
         "translation_notes": "Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman instead."
       },
       "project_text_path": "texts/english/NTA-A-001.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-001-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-A-002",
@@ -4613,7 +4837,19 @@
         "translation_notes": "Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman instead."
       },
       "project_text_path": "texts/english/NTA-A-002.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-A-003",
@@ -5185,7 +5421,29 @@
         "translation_notes": "Thomas has several strong modern translations; Gathercole is useful for detailed saying-by-saying study."
       },
       "project_text_path": "texts/english/NTA-G-001.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain / study base",
+          "source_edition": "Public domain style",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-001-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-002",
@@ -5242,7 +5500,19 @@
         "translation_notes": "For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary or disputed works."
       },
       "project_text_path": "texts/english/NTA-G-002.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-003",
@@ -5301,7 +5571,29 @@
         "translation_notes": "For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary or disputed works."
       },
       "project_text_path": "texts/english/NTA-G-003.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-004",
@@ -5358,7 +5650,29 @@
         "translation_notes": "For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary or disputed works."
       },
       "project_text_path": "texts/english/NTA-G-004.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-004-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-005",
@@ -5415,7 +5729,19 @@
         "translation_notes": "For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary or disputed works."
       },
       "project_text_path": "texts/english/NTA-G-005.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "NTA-G-006",
@@ -5818,7 +6144,19 @@
         "translation_notes": "For 1 Enoch specifically, Nickelsburg/VanderKam is preferred over generic anthology translations for close study."
       },
       "project_text_path": "texts/english/PSE-001.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-002",
@@ -5877,7 +6215,19 @@
         "translation_notes": "VanderKam is preferred for Jubilees-specific study."
       },
       "project_text_path": "texts/english/PSE-002.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-002-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-003",
@@ -5934,7 +6284,19 @@
         "translation_notes": "Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are public domain but often less current and less text-critical."
       },
       "project_text_path": "texts/english/PSE-003.md",
-      "project_text_status": "stub_pending_rights_or_source_ingestion"
+      "project_text_status": "stub_pending_rights_or_source_ingestion",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-003-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "PSE-004",

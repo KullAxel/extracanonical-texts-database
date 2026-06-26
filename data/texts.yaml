@@ -308,6 +308,14 @@ texts:
     rights_status: public_domain
     license: Public domain
     segment_count: 3
+  - type: simple
+    path: texts/versions/AF-004-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-005
   title_standard: Shepherd of Hermas
   title_alternatives: []
@@ -366,6 +374,14 @@ texts:
     status: available
     translator: Roberts-Donaldson public domain
     source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/AF-005-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
     rights_status: public_domain
     license: Public domain
     segment_count: 3
@@ -429,6 +445,14 @@ texts:
     rights_status: public_domain
     license: Public domain
     segment_count: 3
+  - type: simple
+    path: texts/versions/AF-006-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-007
   title_standard: Polycarp to Philippians and Martyrdom of Polycarp
   title_alternatives: []
@@ -489,6 +513,14 @@ texts:
     rights_status: public_domain
     license: Public domain
     segment_count: 4
+  - type: simple
+    path: texts/versions/AF-007-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-008
   title_standard: Epistle to Diognetus
   title_alternatives: []
@@ -547,6 +579,14 @@ texts:
     status: available
     translator: Roberts-Donaldson public domain
     source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/AF-008-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
     rights_status: public_domain
     license: Public domain
     segment_count: 3
@@ -673,6 +713,23 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-002.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-002-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/DC-002-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-003
   title_standard: Greek Esther Additions
   title_alternatives: []
@@ -726,6 +783,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-003.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-003-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-004
   title_standard: Wisdom of Solomon
   title_alternatives: []
@@ -851,6 +917,23 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-005.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-005-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/DC-005-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-006
   title_standard: Baruch and Letter of Jeremiah
   title_alternatives: []
@@ -904,6 +987,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-006.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-006-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-007
   title_standard: 'Additions to Daniel: Prayer of Azariah'
   title_alternatives:
@@ -958,6 +1050,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-007.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-007-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-008
   title_standard: 1 Maccabees
   title_alternatives: []
@@ -1011,6 +1112,23 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-008.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-008-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/DC-008-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-009
   title_standard: 2 Maccabees
   title_alternatives: []
@@ -1064,6 +1182,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-009.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-009-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-010
   title_standard: 3 Maccabees
   title_alternatives: []
@@ -1117,6 +1244,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-010.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-010-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-011
   title_standard: 4 Maccabees
   title_alternatives: []
@@ -1170,6 +1306,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-011.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-011-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-012
   title_standard: 1 Esdras
   title_alternatives:
@@ -1225,6 +1370,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-012.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-012-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-013
   title_standard: 2 Esdras
   title_alternatives:
@@ -1332,6 +1486,15 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-014.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-014-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-015
   title_standard: Psalm 151 and Syriac Psalms 152–155
   title_alternatives: []
@@ -4215,6 +4378,15 @@ texts:
       instead.
   project_text_path: texts/english/NTA-A-001.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-A-001-literal.md
+    status: available
+    translator: Public domain style
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-A-002
   title_standard: Acts of Peter
   title_alternatives: []
@@ -4266,6 +4438,15 @@ texts:
       instead.
   project_text_path: texts/english/NTA-A-002.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-A-002-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-A-003
   title_standard: Acts of John
   title_alternatives: []
@@ -4776,6 +4957,23 @@ texts:
     translation_notes: Thomas has several strong modern translations; Gathercole is useful for detailed saying-by-saying study.
   project_text_path: texts/english/NTA-G-001.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-G-001-literal.md
+    status: available
+    translator: Older public domain / study base
+    source_edition: Public domain style
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/NTA-G-001-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-G-002
   title_standard: Gospel of Peter
   title_alternatives: []
@@ -4827,6 +5025,15 @@ texts:
       or disputed works.
   project_text_path: texts/english/NTA-G-002.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-G-002-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-G-003
   title_standard: Protoevangelium of James
   title_alternatives:
@@ -4879,6 +5086,23 @@ texts:
       or disputed works.
   project_text_path: texts/english/NTA-G-003.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-G-003-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/NTA-G-003-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-G-004
   title_standard: Infancy Gospel of Thomas
   title_alternatives: []
@@ -4930,6 +5154,23 @@ texts:
       or disputed works.
   project_text_path: texts/english/NTA-G-004.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-G-004-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/NTA-G-004-simple.md
+    status: available
+    translator: Simplified for study
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-G-005
   title_standard: Gospel of Mary
   title_alternatives: []
@@ -4981,6 +5222,15 @@ texts:
       or disputed works.
   project_text_path: texts/english/NTA-G-005.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/NTA-G-005-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: NTA-G-006
   title_standard: Gospel of Judas
   title_alternatives: []
@@ -5343,6 +5593,15 @@ texts:
       close study.
   project_text_path: texts/english/PSE-001.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/PSE-001-literal.md
+    status: available
+    translator: Older public domain style
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: PSE-002
   title_standard: Jubilees
   title_alternatives:
@@ -5394,6 +5653,15 @@ texts:
     translation_notes: VanderKam is preferred for Jubilees-specific study.
   project_text_path: texts/english/PSE-002.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/PSE-002-literal.md
+    status: available
+    translator: Public domain style
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: PSE-003
   title_standard: Testaments of the Twelve Patriarchs
   title_alternatives: []
@@ -5446,6 +5714,15 @@ texts:
       public domain but often less current and less text-critical.
   project_text_path: texts/english/PSE-003.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/PSE-003-literal.md
+    status: available
+    translator: Public domain style
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: PSE-004
   title_standard: Testament of Moses
   title_alternatives:
