@@ -162,6 +162,23 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-002.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-002-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/AF-002-simple.md
+    status: available
+    translator: Simplified for modern readers
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-003
   title_standard: Didache
   title_alternatives:
@@ -403,6 +420,15 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-006.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-006-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: AF-007
   title_standard: Polycarp to Philippians and Martyrdom of Polycarp
   title_alternatives: []
@@ -454,6 +480,15 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-007.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-007-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 4
 - id: AF-008
   title_standard: Epistle to Diognetus
   title_alternatives: []
@@ -506,6 +541,15 @@ texts:
       are public-domain alternatives but not always the best literal modern rendering.
   project_text_path: texts/english/AF-008.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/AF-008-literal.md
+    status: available
+    translator: Roberts-Donaldson public domain
+    source_edition: Ante-Nicene Fathers
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-001
   title_standard: Tobit
   title_alternatives: []
