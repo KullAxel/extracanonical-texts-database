@@ -24,3 +24,8 @@ Dates use ranges and confidence labels: high, medium-high, medium, low-medium, l
 ## Data model
 
 The canonical source is `data/texts.yaml`; JSON and CSV are derived convenience exports. `scripts/validate_database.py` enforces required fields, unique IDs, controlled categories, and at least one source per entry.
+
+
+## Full-text and translation policy
+
+The database now records a preferred English translation strategy for each entry. The selection prioritizes modern scholarly/literal translations and critical editions over convenience. Full project-hosted text is staged under `texts/english/<ID>.md` for future search and AI features, but ingestion requires one of: public-domain status, open license, permission, or a separate rights decision by the project owner. Metadata may point to copyrighted recommended editions without copying their text.

@@ -8,9 +8,10 @@ except ModuleNotFoundError:
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'texts.yaml'
 JSON_DATA = ROOT / 'data' / 'texts.json'
-REQUIRED = ['id','title_standard','title_alternatives','category','approximate_date','date_confidence','date_evidence','surviving_languages','manuscript_witnesses','primary_community_or_tradition','key_content_summary','evidence_of_historical_popularity_or_use','canonical_status_by_tradition','reasons_excluded_or_marginalized','relationship_to_canonical_texts','related_texts','modern_editions_translations_digital_access','scholarly_notes','sources']
+REQUIRED = ['id','title_standard','title_alternatives','category','approximate_date','date_confidence','date_evidence','surviving_languages','manuscript_witnesses','primary_community_or_tradition','key_content_summary','evidence_of_historical_popularity_or_use','canonical_status_by_tradition','reasons_excluded_or_marginalized','relationship_to_canonical_texts','related_texts','modern_editions_translations_digital_access','scholarly_notes','sources','translation_access','project_text_path','project_text_status']
 STATUS_FIELDS = ['jewish_tanakh','protestant_ot_or_nt','roman_catholic','eastern_orthodox','oriental_orthodox','ethiopian_orthodox','other_notes']
 SOURCE_FIELDS = ['title','author_or_institution','url_or_citation','reliability_type']
+TRANSLATION_FIELDS = ['recommended_english_translation','translation_literalness','translation_rights_status','full_text_hosting_allowed','full_text_url','public_domain_or_open_access_text_url','recommended_print_edition','translation_notes']
 VALID_CONF = {'high','medium-high','medium','low-medium','low'}
 VALID_REL = {'primary','manuscript_catalog','critical_edition','academic_reference','secondary_summary'}
 
@@ -41,6 +42,14 @@ def main():
         for k in STATUS_FIELDS:
             if not st.get(k): errors.append(f'{eid}: canonical_status_by_tradition missing/empty {k}')
         srcs=e.get('sources') or []
+        tr=e.get('translation_access') or {}
+        for k in TRANSLATION_FIELDS:
+            if k not in tr:
+                errors.append(f'{eid}: translation_access missing {k}')
+            elif k not in {'full_text_url','public_domain_or_open_access_text_url'} and not tr.get(k):
+                errors.append(f'{eid}: translation_access empty {k}')
+        if e.get('project_text_status') not in {'stub_pending_rights_or_source_ingestion','available','partial','not_applicable'}:
+            errors.append(f'{eid}: invalid project_text_status {e.get("project_text_status")}')
         if not srcs: errors.append(f'{eid}: no sources')
         for j,s in enumerate(srcs,1):
             for k in SOURCE_FIELDS:

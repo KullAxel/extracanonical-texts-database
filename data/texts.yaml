@@ -1,6 +1,6 @@
 metadata:
   title: Extracanonical Jewish and Christian Texts Database
-  version: 0.2-local
+  version: 0.3-local
   generated_on: '2026-06-25'
   scope: Major Jewish, Christian, Jewish-Christian, Gnostic, Samaritan, Mandaean, and related ancient religious texts/documents
     influential or circulated but outside the later rabbinic Tanakh and/or traditional 27-book Protestant New Testament canon,
@@ -36,6 +36,12 @@ metadata:
   - modern_editions_translations_digital_access
   - scholarly_notes
   - sources
+  - translation_access
+  - project_text_path
+  - project_text_status
+  translation_policy: The project tracks the best scholarly English translation for each text and provides project text slots
+    for future search/AI ingestion. Full-text hosting requires rights clearance or public-domain/open-license confirmation
+    per text.
 texts:
 - id: AF-001
   title_standard: 1 Clement
@@ -75,6 +81,19 @@ texts:
     url_or_citation: Loeb Classical Library, Harvard University Press, 2003
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-002
   title_standard: 2 Clement
   title_alternatives: []
@@ -103,6 +122,19 @@ texts:
   modern_editions_translations_digital_access: Holmes/Ehrman
   scholarly_notes: Early sermon and Jesus-tradition witness
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-003
   title_standard: Didache
   title_alternatives:
@@ -132,6 +164,19 @@ texts:
   modern_editions_translations_digital_access: Holmes; Ehrman; public translations
   scholarly_notes: Crucial for early liturgy, ethics, prophets
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-004
   title_standard: Epistle of Barnabas
   title_alternatives: []
@@ -160,6 +205,19 @@ texts:
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Shows radical Christian rereading of Torah
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-005
   title_standard: Shepherd of Hermas
   title_alternatives: []
@@ -189,6 +247,19 @@ texts:
   modern_editions_translations_digital_access: Holmes; Ehrman; Lake
   scholarly_notes: One of the most popular noncanonical early Christian books
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the recommended modern study translation; the public-domain Lightfoot/ANF translation can
+      be staged as a legal fallback if desired.
+  project_text_path: texts/english/AF-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-006
   title_standard: Epistles of Ignatius of Antioch
   title_alternatives: []
@@ -217,6 +288,19 @@ texts:
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Important but generally not “scripture”; ecclesiology and martyrdom
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-007
   title_standard: Polycarp to Philippians and Martyrdom of Polycarp
   title_alternatives: []
@@ -245,6 +329,19 @@ texts:
   modern_editions_translations_digital_access: Holmes; Ehrman
   scholarly_notes: Early martyr theology and scriptural reception
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: AF-008
   title_standard: Epistle to Diognetus
   title_alternatives: []
@@ -274,6 +371,19 @@ texts:
   modern_editions_translations_digital_access: Holmes/Ehrman
   scholarly_notes: 'Borderline: significant theologically but manuscript evidence is thin'
   sources: *id001
+  translation_access:
+    recommended_english_translation: 'Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd
+      ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.'
+    translation_literalness: medium-high; modern critical translation designed for close study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://www.ccel.org/fathers.html
+    recommended_print_edition: Holmes 3rd ed.; Ehrman Loeb Apostolic Fathers.
+    translation_notes: Holmes is the default modern study translation. Older Ante-Nicene Fathers / Lightfoot translations
+      are public-domain alternatives but not always the best literal modern rendering.
+  project_text_path: texts/english/AF-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-001
   title_standard: Tobit
   title_alternatives: []
@@ -311,6 +421,22 @@ texts:
     url_or_citation: NRSV / NRSVUE annotated study Bible editions
     access_date: null
     reliability_type: academic_reference
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-002
   title_standard: Judith
   title_alternatives: []
@@ -338,6 +464,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV; Vulgate
   scholarly_notes: Model of pious resistance and gendered heroism
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-003
   title_standard: Greek Esther Additions
   title_alternatives: []
@@ -365,6 +507,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha
   scholarly_notes: Shows Greek Jewish discomfort with secular tone of Hebrew Esther
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-004
   title_standard: Wisdom of Solomon
   title_alternatives: []
@@ -392,6 +550,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV; critical editions
   scholarly_notes: Key for Hellenistic Jewish theology of immortality and Wisdom
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-005
   title_standard: Sirach
   title_alternatives:
@@ -421,6 +595,22 @@ texts:
   modern_editions_translations_digital_access: Pancratius Beentjes Hebrew; NETS; NRSV
   scholarly_notes: Major witness to pre-rabbinic wisdom and canon consciousness
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-006
   title_standard: Baruch and Letter of Jeremiah
   title_alternatives: []
@@ -448,6 +638,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Shows diasporic repentance and anti-idol polemic
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-007
   title_standard: 'Additions to Daniel: Prayer of Azariah'
   title_alternatives:
@@ -476,6 +682,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Important for liturgy and anti-idolatry storytelling
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-008
   title_standard: 1 Maccabees
   title_alternatives: []
@@ -503,6 +725,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Primary historical source for Maccabean revolt
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-009
   title_standard: 2 Maccabees
   title_alternatives: []
@@ -530,6 +768,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Key for resurrection, martyrdom, intercession for dead
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-009.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-010
   title_standard: 3 Maccabees
   title_alternatives: []
@@ -557,6 +811,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha in some editions
   scholarly_notes: Diaspora persecution and divine deliverance
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-010.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-011
   title_standard: 4 Maccabees
   title_alternatives: []
@@ -584,6 +854,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV Apocrypha
   scholarly_notes: Bridges Jewish martyrdom and Greco-Roman moral philosophy
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-011.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-012
   title_standard: 1 Esdras
   title_alternatives:
@@ -613,6 +899,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Textual witness to fluid Ezra traditions
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-012.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-013
   title_standard: 2 Esdras
   title_alternatives:
@@ -641,6 +943,22 @@ texts:
   modern_editions_translations_digital_access: Stone; NRSV Apocrypha
   scholarly_notes: Central post-destruction Jewish theodicy
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-013.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-014
   title_standard: Prayer of Manasseh
   title_alternatives: []
@@ -668,6 +986,22 @@ texts:
   modern_editions_translations_digital_access: NETS; NRSV
   scholarly_notes: Influential penitential theology
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-014.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DC-015
   title_standard: Psalm 151 and Syriac Psalms 152–155
   title_alternatives: []
@@ -695,6 +1029,22 @@ texts:
   modern_editions_translations_digital_access: DSS editions; NETS
   scholarly_notes: Shows Psalter boundaries remained fluid
   sources: *id002
+  translation_access:
+    recommended_english_translation: 'NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin
+      G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.'
+    translation_literalness: medium-high; NETS is intentionally aligned with Greek Septuagint source texts and is usually
+      the best scholarly English baseline
+    translation_rights_status: copyrighted/open web access for NETS pages varies by file; rights review required before bulk
+      hosting
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: https://ccat.sas.upenn.edu/nets/edition/
+    recommended_print_edition: A New English Translation of the Septuagint (Oxford, 2007); Göttingen/Rahlfs-Hanhart Greek
+      texts for source control.
+    translation_notes: NETS is the default “best literal-ish” English translation for Greek deuterocanonical/apocryphal books;
+      compare with NRSVUE for readability.
+  project_text_path: texts/english/DC-015.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-001
   title_standard: Community Rule
   title_alternatives:
@@ -736,6 +1086,21 @@ texts:
     url_or_citation: Brill / Eerdmans, 1997–1998
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-002
   title_standard: Damascus Document
   title_alternatives:
@@ -765,6 +1130,21 @@ texts:
   modern_editions_translations_digital_access: Schechter fragments; DJD; DSS Study Edition
   scholarly_notes: Major bridge between Qumran and Genizah; shows alternative Jewish law
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-003
   title_standard: War Scroll
   title_alternatives:
@@ -794,6 +1174,21 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD
   scholarly_notes: Key evidence for angelic-war cosmology
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-004
   title_standard: Thanksgiving Hymns
   title_alternatives:
@@ -823,6 +1218,21 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; DJD
   scholarly_notes: Shows devotional theology outside Psalter
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-005
   title_standard: Pesher Habakkuk
   title_alternatives:
@@ -852,6 +1262,21 @@ texts:
   modern_editions_translations_digital_access: DSS Study Edition; Leon Levy
   scholarly_notes: Crucial for how ancient groups read scripture as directly predictive
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-006
   title_standard: Temple Scroll
   title_alternatives:
@@ -880,6 +1305,21 @@ texts:
   modern_editions_translations_digital_access: Yadin; DJD; DSS Study Edition
   scholarly_notes: One of the strongest examples of “new Torah” authority outside canon
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-007
   title_standard: Genesis Apocryphon
   title_alternatives:
@@ -909,6 +1349,21 @@ texts:
   modern_editions_translations_digital_access: DJD; Fitzmyer; Leon Levy
   scholarly_notes: Shows imaginative patriarchal expansion and Aramaic scriptural storytelling
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-008
   title_standard: 4QMMT
   title_alternatives:
@@ -937,6 +1392,21 @@ texts:
   modern_editions_translations_digital_access: DJD; Qimron-Strugnell
   scholarly_notes: Important for Second Temple legal diversity and Pauline-background debates
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-009
   title_standard: Songs of the Sabbath Sacrifice
   title_alternatives:
@@ -965,6 +1435,21 @@ texts:
   modern_editions_translations_digital_access: DJD; Newsom
   scholarly_notes: Major precursor for Jewish mystical/heavenly liturgy traditions
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-009.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-010
   title_standard: Aramaic Levi Document
   title_alternatives: []
@@ -992,6 +1477,21 @@ texts:
   modern_editions_translations_digital_access: Greenfield-Stone-Eshel; DJD
   scholarly_notes: Priesthood as heavenly wisdom; important for Levi traditions
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-010.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-011
   title_standard: Book of Giants
   title_alternatives: []
@@ -1019,6 +1519,21 @@ texts:
   modern_editions_translations_digital_access: DJD; Reeves
   scholarly_notes: Shows international afterlife of Enochic myth
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-011.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-012
   title_standard: New Jerusalem texts
   title_alternatives: []
@@ -1046,6 +1561,21 @@ texts:
   modern_editions_translations_digital_access: DJD
   scholarly_notes: Maps divine-city imagination before Revelation
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-012.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-013
   title_standard: Rule of the Congregation
   title_alternatives:
@@ -1082,6 +1612,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-013.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-014
   title_standard: Rule of Blessings
   title_alternatives:
@@ -1116,6 +1661,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-014.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-015
   title_standard: Copper Scroll
   title_alternatives:
@@ -1149,6 +1709,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-015.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-016
   title_standard: 11QMelchizedek
   title_alternatives:
@@ -1186,6 +1761,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-016.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-017
   title_standard: Instruction
   title_alternatives:
@@ -1222,6 +1812,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-017.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-018
   title_standard: Prayer of Nabonidus
   title_alternatives:
@@ -1256,6 +1861,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-018.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-019
   title_standard: Apocryphal Psalms
   title_alternatives:
@@ -1293,6 +1913,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-019.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-020
   title_standard: Barkhi Nafshi
   title_alternatives:
@@ -1327,6 +1962,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-020.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-021
   title_standard: Pesher Nahum
   title_alternatives:
@@ -1360,6 +2010,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-021.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-022
   title_standard: Pesher Isaiah
   title_alternatives:
@@ -1395,6 +2060,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-022.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-023
   title_standard: Mishmarot and calendrical texts
   title_alternatives:
@@ -1432,6 +2112,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-023.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-024
   title_standard: Florilegium
   title_alternatives:
@@ -1468,6 +2163,21 @@ texts:
   sources:
   - *id004
   - *id005
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-024.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: DSS-COLL-001
   title_standard: Dead Sea Scrolls biblical manuscripts, collection-level control record
   title_alternatives: []
@@ -1503,6 +2213,21 @@ texts:
   modern_editions_translations_digital_access: Leon Levy DSS Digital Library; DJD; Tov
   scholarly_notes: 'Essential baseline: the community’s “Bible” was not identical to later fixed rabbinic form'
   sources: *id003
+  translation_access:
+    recommended_english_translation: Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition,
+      2 vols. (Brill/Eerdmans, 1997–1998).
+    translation_literalness: high; study-edition style with Hebrew/Aramaic transcriptions and English on facing pages for
+      non-biblical Qumran texts
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: The Dead Sea Scrolls Study Edition, ed./trans. García Martínez and Tigchelaar; DJD volumes
+      for critical editions.
+    translation_notes: Best default English for broad non-biblical DSS coverage. Use DJD or specialist editions for final
+      philological work. Do not ingest online PDFs unless rights are cleared.
+  project_text_path: texts/english/DSS-COLL-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-001
   title_standard: Apocryphon of John
   title_alternatives:
@@ -1544,6 +2269,21 @@ texts:
     url_or_citation: Doubleday, 1987
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-002
   title_standard: Hypostasis of the Archons
   title_alternatives: []
@@ -1572,6 +2312,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Female revealer/Norea and archon cosmology
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-003
   title_standard: On the Origin of the World
   title_alternatives: []
@@ -1600,6 +2355,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Encyclopedic gnostic cosmology
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-004
   title_standard: Gospel of the Egyptians
   title_alternatives:
@@ -1629,6 +2399,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Key for Sethian identity and ritual
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-005
   title_standard: Apocalypse of Adam
   title_alternatives: []
@@ -1657,6 +2442,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Possible non-Christian gnostic apocalypse
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-006
   title_standard: Three Steles of Seth
   title_alternatives: []
@@ -1685,6 +2485,21 @@ texts:
   modern_editions_translations_digital_access: Layton; Nag Hammadi
   scholarly_notes: Shows contemplative ascent practice
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-007
   title_standard: Zostrianos
   title_alternatives: []
@@ -1713,6 +2528,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library; Turner
   scholarly_notes: Important for interaction of gnosticism and Platonism
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-008
   title_standard: Allogenes
   title_alternatives: []
@@ -1741,6 +2571,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Negative theology and ascent
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-009
   title_standard: Trimorphic Protennoia
   title_alternatives: []
@@ -1769,6 +2614,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Feminine divine voice and salvation by awakening
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-009.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-010
   title_standard: Thunder, Perfect Mind
   title_alternatives: []
@@ -1797,6 +2657,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Striking divine feminine/self-revelation text
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-010.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-011
   title_standard: Second Treatise of the Great Seth
   title_alternatives: []
@@ -1825,6 +2700,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Radical alternative interpretation of crucifixion
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-011.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-012
   title_standard: Coptic Apocalypse of Peter
   title_alternatives: []
@@ -1853,6 +2743,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Dissenting authority polemic
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-012.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-013
   title_standard: Sophia of Jesus Christ
   title_alternatives: []
@@ -1881,6 +2786,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Dialogic revelation form
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-013.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-014
   title_standard: Eugnostos the Blessed
   title_alternatives: []
@@ -1909,6 +2829,21 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library
   scholarly_notes: Shows pre-/non-Christian gnostic speculation possibly adapted by Christians
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-014.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-015
   title_standard: Pistis Sophia
   title_alternatives: []
@@ -1937,6 +2872,21 @@ texts:
   modern_editions_translations_digital_access: Schmidt/MacDermot; public translations
   scholarly_notes: Major late antique gnostic compendium outside Nag Hammadi
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-015.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-016
   title_standard: Books of Jeu
   title_alternatives: []
@@ -1965,6 +2915,21 @@ texts:
   modern_editions_translations_digital_access: Schmidt/MacDermot
   scholarly_notes: Evidence for ritualized ascent/salvation technology
   sources: *id006
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-016.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-017
   title_standard: Dialogue of the Savior
   title_alternatives:
@@ -2001,6 +2966,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-017.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-018
   title_standard: Exegesis on the Soul
   title_alternatives:
@@ -2037,6 +3017,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-018.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-019
   title_standard: Authoritative Teaching
   title_alternatives:
@@ -2074,6 +3069,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-019.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-020
   title_standard: Tripartite Tractate
   title_alternatives:
@@ -2110,6 +3120,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-020.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-021
   title_standard: Valentinian Exposition
   title_alternatives:
@@ -2146,6 +3171,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-021.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-022
   title_standard: Paraphrase of Shem
   title_alternatives:
@@ -2182,6 +3222,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-022.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-023
   title_standard: Melchizedek
   title_alternatives:
@@ -2218,6 +3273,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-023.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-024
   title_standard: Thought of Norea
   title_alternatives:
@@ -2254,6 +3324,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-024.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NH-025
   title_standard: Marsanes
   title_alternatives:
@@ -2290,6 +3375,21 @@ texts:
   sources:
   - *id007
   - *id008
+  translation_access:
+    recommended_english_translation: James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990),
+      supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions.
+    translation_literalness: medium; standard complete English anthology, with Brill/Layton often better for technical philological
+      study
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: http://gnosis.org/naghamm/nhl.html
+    recommended_print_edition: Robinson Nag Hammadi Library in English; Layton Gnostic Scriptures; Brill Coptic Gnostic Library
+      for critical work.
+    translation_notes: Robinson is the broadest one-volume reader; Layton/Brill are preferable for technical terminology and
+      source-language study.
+  project_text_path: texts/english/NH-025.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-A-001
   title_standard: Acts of Paul and Thecla
   title_alternatives: []
@@ -2328,6 +3428,19 @@ texts:
     url_or_citation: Eerdmans, 2016–
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-A-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-A-002
   title_standard: Acts of Peter
   title_alternatives: []
@@ -2356,6 +3469,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Schneemelcher
   scholarly_notes: Source of Peter’s upside-down crucifixion
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-A-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-A-003
   title_standard: Acts of John
   title_alternatives: []
@@ -2384,6 +3510,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Schneemelcher
   scholarly_notes: Key for non-mainstream Christology and ritual hymn
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-A-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-A-004
   title_standard: Acts of Thomas
   title_alternatives: []
@@ -2412,6 +3551,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Klijn
   scholarly_notes: Major for Syriac Christianity and soul-descent myth
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-A-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-A-005
   title_standard: Acts of Andrew
   title_alternatives: []
@@ -2440,6 +3592,19 @@ texts:
   modern_editions_translations_digital_access: Elliott
   scholarly_notes: Shows ascetic apostolic ideal
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-A-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-AP-001
   title_standard: Apocalypse of Peter
   title_alternatives: []
@@ -2468,6 +3633,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Buchholz
   scholarly_notes: Major source for Christian heaven/hell imagination
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-AP-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-AP-002
   title_standard: Apocalypse of Paul
   title_alternatives:
@@ -2497,6 +3675,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Silverstein-Hilhorst
   scholarly_notes: Huge influence on medieval afterlife literature
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-AP-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-AP-003
   title_standard: Epistula Apostolorum
   title_alternatives: []
@@ -2525,6 +3716,19 @@ texts:
   modern_editions_translations_digital_access: Hills; Elliott
   scholarly_notes: Shows proto-orthodox apocrypha could also be anti-gnostic
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-AP-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-E-001
   title_standard: 3 Corinthians
   title_alternatives: []
@@ -2553,6 +3757,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Armenian editions
   scholarly_notes: Shows canon pressure created Pauline-like countertexts
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-E-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-E-002
   title_standard: Epistle to the Laodiceans
   title_alternatives: []
@@ -2581,6 +3798,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Vulgate appendix
   scholarly_notes: Evidence of attempts to fill canonical gaps
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-E-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-E-003
   title_standard: Correspondence of Paul and Seneca
   title_alternatives: []
@@ -2609,6 +3839,19 @@ texts:
   modern_editions_translations_digital_access: Elliott
   scholarly_notes: Shows desire to validate Christianity via classical authority
   sources: *id009
+  translation_access:
+    recommended_english_translation: 'J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented
+      by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.'
+    translation_literalness: medium; anthology translations vary by text and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Elliott; Burke et al.; text-specific critical editions for Acts/Apocalypses.
+    translation_notes: Good broad default for apocryphal acts, epistles, and apocalypses. For Apostolic Fathers use Holmes/Ehrman
+      instead.
+  project_text_path: texts/english/NTA-E-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-001
   title_standard: Gospel of Thomas
   title_alternatives: []
@@ -2647,6 +3890,18 @@ texts:
     url_or_citation: Oxford University Press, 2011
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: 'Simon Gathercole, The Gospel of Thomas: Introduction and Commentary, or Ehrman/Pleše
+      for anthology access; compare Robinson/Layton for Nag Hammadi context.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Gathercole for Thomas-specific study; Ehrman/Pleše; Robinson/Layton.
+    translation_notes: Thomas has several strong modern translations; Gathercole is useful for detailed saying-by-saying study.
+  project_text_path: texts/english/NTA-G-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-002
   title_standard: Gospel of Peter
   title_alternatives: []
@@ -2675,6 +3930,19 @@ texts:
   modern_editions_translations_digital_access: Ehrman/Pleše; Elliott
   scholarly_notes: Important for passion tradition development
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-003
   title_standard: Protoevangelium of James
   title_alternatives:
@@ -2704,6 +3972,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Burke; public translations
   scholarly_notes: 'Source for Marian traditions: parents Joachim/Anna, perpetual virginity imagery'
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-004
   title_standard: Infancy Gospel of Thomas
   title_alternatives: []
@@ -2732,6 +4013,19 @@ texts:
   modern_editions_translations_digital_access: Elliott; Burke
   scholarly_notes: Shows popular curiosity about divine childhood
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-005
   title_standard: Gospel of Mary
   title_alternatives: []
@@ -2760,6 +4054,19 @@ texts:
   modern_editions_translations_digital_access: King; Tuckett; Nag Hammadi-adjacent editions
   scholarly_notes: Key for gender, revelation, authority debates
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-006
   title_standard: Gospel of Judas
   title_alternatives: []
@@ -2788,6 +4095,19 @@ texts:
   modern_editions_translations_digital_access: Critical edition by Kasser/Meyer/Wurst; National Geographic edition
   scholarly_notes: Important for dissenting soteriology and anti-sacrificial polemic
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-007
   title_standard: Gospel of Philip
   title_alternatives: []
@@ -2816,6 +4136,19 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton
   scholarly_notes: Evidence for Valentinian ritual theology
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-008
   title_standard: Gospel of Truth
   title_alternatives: []
@@ -2844,6 +4177,19 @@ texts:
   modern_editions_translations_digital_access: Nag Hammadi Library; Layton
   scholarly_notes: Classic Valentinian theology of revelation
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-009
   title_standard: 'Jewish-Christian Gospels: Hebrews, Nazarenes, Ebionites'
   title_alternatives: []
@@ -2873,6 +4219,19 @@ texts:
   modern_editions_translations_digital_access: Schneemelcher; Klijn; Elliott
   scholarly_notes: Important for diversity of Jewish Christianity
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-009.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-010
   title_standard: Egerton Gospel
   title_alternatives:
@@ -2902,6 +4261,19 @@ texts:
   modern_editions_translations_digital_access: Papyrus editions; Ehrman/Pleše
   scholarly_notes: Shows early gospel-like textual fluidity
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-010.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: NTA-G-011
   title_standard: Secret Gospel of Mark
   title_alternatives: []
@@ -2930,6 +4302,19 @@ texts:
   modern_editions_translations_digital_access: Smith; Carlson; Brown debates
   scholarly_notes: Research gap/borderline; include only as disputed case, not established text
   sources: *id010
+  translation_access:
+    recommended_english_translation: 'Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford
+      University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.'
+    translation_literalness: medium-high; modern facing-text study translations where available
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Ehrman/Pleše for gospels; Elliott and Burke for broader apocrypha and newer texts.
+    translation_notes: For gospel material, Ehrman/Pleše is a strong default; use text-specific critical editions for fragmentary
+      or disputed works.
+  project_text_path: texts/english/NTA-G-011.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-001
   title_standard: 1 Enoch
   title_alternatives:
@@ -2969,6 +4354,21 @@ texts:
     url_or_citation: Eerdmans, 2013–
     access_date: null
     reliability_type: critical_edition
+  translation_access:
+    recommended_english_translation: 'George W. E. Nickelsburg and James C. VanderKam, 1 Enoch: The Hermeneia Translation
+      (Fortress), with Charlesworth OTP for anthology access.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Nickelsburg/VanderKam Hermeneia translation/commentary; Ethiopic critical editions; Charlesworth
+      OTP.
+    translation_notes: For 1 Enoch specifically, Nickelsburg/VanderKam is preferred over generic anthology translations for
+      close study.
+  project_text_path: texts/english/PSE-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-002
   title_standard: Jubilees
   title_alternatives:
@@ -2997,6 +4397,19 @@ texts:
   modern_editions_translations_digital_access: VanderKam; Charlesworth; DSS
   scholarly_notes: Shows Torah as angelically mediated cosmic chronology
   sources: *id011
+  translation_access:
+    recommended_english_translation: James C. VanderKam, The Book of Jubilees (critical translation/commentary), with Charlesworth
+      OTP as anthology access.
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: VanderKam Jubilees editions/commentary; Charlesworth OTP.
+    translation_notes: VanderKam is preferred for Jubilees-specific study.
+  project_text_path: texts/english/PSE-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-003
   title_standard: Testaments of the Twelve Patriarchs
   title_alternatives: []
@@ -3024,6 +4437,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth; Hollander-de Jonge
   scholarly_notes: Important for ethics, demonology, messianism
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-004
   title_standard: Testament of Moses
   title_alternatives:
@@ -3052,6 +4480,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth; Tromp
   scholarly_notes: Post-Hasmonean apocalyptic historiography
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-005
   title_standard: Life of Adam and Eve
   title_alternatives:
@@ -3080,6 +4523,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth; Stone
   scholarly_notes: Source for fall, Satan, death traditions
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-006
   title_standard: Psalms of Solomon
   title_alternatives: []
@@ -3107,6 +4565,21 @@ texts:
   modern_editions_translations_digital_access: R.B. Wright in Charlesworth; critical editions
   scholarly_notes: Key pre-Christian messianic expectation source
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-006.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-007
   title_standard: Odes of Solomon
   title_alternatives: []
@@ -3134,6 +4607,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth; Lattke
   scholarly_notes: Important for early mystical soteriology
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-007.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-008
   title_standard: Sibylline Oracles, Jewish
   title_alternatives:
@@ -3162,6 +4650,21 @@ texts:
   modern_editions_translations_digital_access: Collins; Charlesworth
   scholarly_notes: Shows apologetic monotheism in Greco-Roman idiom
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-008.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-009
   title_standard: Apocalypse of Abraham
   title_alternatives: []
@@ -3189,6 +4692,21 @@ texts:
   modern_editions_translations_digital_access: Kulik; Charlesworth
   scholarly_notes: Major angelomorphic and anti-idol apocalypse
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-009.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-010
   title_standard: 2 Baruch
   title_alternatives:
@@ -3217,6 +4735,21 @@ texts:
   modern_editions_translations_digital_access: Klijn; Gurtner
   scholarly_notes: Central witness to Jewish theodicy after temple destruction
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-010.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-011
   title_standard: 3 Baruch
   title_alternatives:
@@ -3245,6 +4778,21 @@ texts:
   modern_editions_translations_digital_access: Harlow; Charlesworth
   scholarly_notes: Heavenly cosmology and moral order
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-011.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-012
   title_standard: Ascension of Isaiah
   title_alternatives: []
@@ -3272,6 +4820,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth; Norelli
   scholarly_notes: Key for early layered heavens and angelomorphic Christology
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-012.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-013
   title_standard: Joseph and Aseneth
   title_alternatives: []
@@ -3299,6 +4862,21 @@ texts:
   modern_editions_translations_digital_access: Burchard; Kraemer
   scholarly_notes: Conversion, divine visitation, marriage symbolism
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-013.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-014
   title_standard: Ladder of Jacob
   title_alternatives: []
@@ -3326,6 +4904,21 @@ texts:
   modern_editions_translations_digital_access: Charlesworth
   scholarly_notes: Angels and cosmic ascent traditions
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-014.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: PSE-015
   title_standard: 3 Enoch
   title_alternatives:
@@ -3354,6 +4947,21 @@ texts:
   modern_editions_translations_digital_access: Odeberg; Alexander in OTP
   scholarly_notes: Vital for Metatron and merkavah theology, slightly later than target period
   sources: *id011
+  translation_access:
+    recommended_english_translation: 'James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985),
+      supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.'
+    translation_literalness: medium-high; standard academic English translations with introductions and notes, but literalness
+      varies by contributor and source language
+    translation_rights_status: copyrighted; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Charlesworth OTP; Bauckham/Davila/Panayotov More Old Testament Pseudepigrapha; text-specific
+      critical editions for serious work.
+    translation_notes: Best default anthology for broad pseudepigrapha coverage. Some older R. H. Charles translations are
+      public domain but often less current and less text-critical.
+  project_text_path: texts/english/PSE-015.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: REL-001
   title_standard: Samaritan Pentateuch textual tradition
   title_alternatives: []
@@ -3390,6 +4998,18 @@ texts:
     url_or_citation: See entry notes and bibliography; needs item-level expansion
     access_date: null
     reliability_type: academic_reference
+  translation_access:
+    recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
+      Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
+    translation_literalness: varies; specialist text-by-text selection required
+    translation_rights_status: mixed; mostly copyrighted modern editions; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Text-specific specialist editions; see entry notes.
+    translation_notes: This category is heterogeneous; each entry needs individual review before ingestion.
+  project_text_path: texts/english/REL-001.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: REL-002
   title_standard: Memar Marqah
   title_alternatives: []
@@ -3419,6 +5039,18 @@ texts:
   modern_editions_translations_digital_access: Macdonald edition
   scholarly_notes: Important for non-rabbinic Israelite theology
   sources: *id012
+  translation_access:
+    recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
+      Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
+    translation_literalness: varies; specialist text-by-text selection required
+    translation_rights_status: mixed; mostly copyrighted modern editions; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Text-specific specialist editions; see entry notes.
+    translation_notes: This category is heterogeneous; each entry needs individual review before ingestion.
+  project_text_path: texts/english/REL-002.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: REL-003
   title_standard: Mandaean Ginza Rabba
   title_alternatives: []
@@ -3448,6 +5080,18 @@ texts:
   modern_editions_translations_digital_access: Lidzbarski; Gelbert; modern translations
   scholarly_notes: Related comparative evidence for late antique baptismal gnosis
   sources: *id012
+  translation_access:
+    recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
+      Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
+    translation_literalness: varies; specialist text-by-text selection required
+    translation_rights_status: mixed; mostly copyrighted modern editions; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Text-specific specialist editions; see entry notes.
+    translation_notes: This category is heterogeneous; each entry needs individual review before ingestion.
+  project_text_path: texts/english/REL-003.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: REL-004
   title_standard: Hekhalot Rabbati
   title_alternatives:
@@ -3478,6 +5122,18 @@ texts:
   modern_editions_translations_digital_access: Schäfer Synopse; Davila
   scholarly_notes: Important continuation of apocalyptic ascent into rabbinic-era mysticism
   sources: *id012
+  translation_access:
+    recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
+      Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
+    translation_literalness: varies; specialist text-by-text selection required
+    translation_rights_status: mixed; mostly copyrighted modern editions; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Text-specific specialist editions; see entry notes.
+    translation_notes: This category is heterogeneous; each entry needs individual review before ingestion.
+  project_text_path: texts/english/REL-004.md
+  project_text_status: stub_pending_rights_or_source_ingestion
 - id: REL-005
   title_standard: Sefer Yetzirah
   title_alternatives:
@@ -3508,3 +5164,15 @@ texts:
   modern_editions_translations_digital_access: Hayman; Gruenwald
   scholarly_notes: Foundational for later Jewish cosmology/Kabbalah, date debated
   sources: *id012
+  translation_access:
+    recommended_english_translation: 'Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin;
+      Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald.'
+    translation_literalness: varies; specialist text-by-text selection required
+    translation_rights_status: mixed; mostly copyrighted modern editions; rights review required before hosting full text
+    full_text_hosting_allowed: rights_review_required
+    full_text_url: ''
+    public_domain_or_open_access_text_url: ''
+    recommended_print_edition: Text-specific specialist editions; see entry notes.
+    translation_notes: This category is heterogeneous; each entry needs individual review before ingestion.
+  project_text_path: texts/english/REL-005.md
+  project_text_status: stub_pending_rights_or_source_ingestion

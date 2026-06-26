@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extracanonical Texts Reader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Extracanonical Texts Reader</h1>
+    <p>Browse the v0.3 catalog, search metadata, and track recommended English translations / project text status.</p>
+  </header>
+  <main>
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search title, category, summary, translation…" autofocus />
+      <select id="category"><option value="">All categories</option></select>
+      <select id="status"><option value="">All text statuses</option></select>
+    </section>
+    <section id="stats" class="stats"></section>
+    <section id="results" class="results"></section>
+  </main>
+  <footer>
+    <p>Full text ingestion is staged for rights-cleared/public-domain/open-license texts. Metadata is not a license grant.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
