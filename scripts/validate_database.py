@@ -50,6 +50,13 @@ def main():
                 errors.append(f'{eid}: translation_access empty {k}')
         if e.get('project_text_status') not in {'stub_pending_rights_or_source_ingestion','available','partial','not_applicable'}:
             errors.append(f'{eid}: invalid project_text_status {e.get("project_text_status")}')
+        text_path = ROOT / str(e.get('project_text_path', ''))
+        if e.get('project_text_status') != 'not_applicable' and not text_path.exists():
+            errors.append(f'{eid}: project text path does not exist: {e.get("project_text_path")}')
+        if e.get('project_text_status') in {'available','partial'}:
+            segment_path = ROOT / 'texts' / 'segments' / f'{eid}.jsonl'
+            if not segment_path.exists():
+                errors.append(f'{eid}: available/partial text missing segment file {segment_path.relative_to(ROOT)}')
         if not srcs: errors.append(f'{eid}: no sources')
         for j,s in enumerate(srcs,1):
             for k in SOURCE_FIELDS:

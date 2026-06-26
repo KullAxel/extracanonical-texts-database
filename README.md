@@ -17,6 +17,8 @@ Entries: **115**
 - `docs/index.html` — basic static reader/search interface for GitHub Pages.
 - `texts/english/` — one project-hosted English text slot per entry, currently stubs pending rights/source ingestion.
 - `texts/manifest.json` — manifest for future text ingestion/search tooling.
+- `scripts/ingest_text.py` — rights-aware full-text ingestion pipeline.
+- `docs/ingestion.md` — ingestion workflow and source-prep instructions.
 - `scripts/validate_database.py` — validation checks.
 
 ## Status
@@ -27,7 +29,25 @@ This is a living v0.3 catalog, not an exhaustive list. The current pass adds tra
 
 ```bash
 python3 scripts/validate_database.py
+python3 -m unittest discover -s tests -v
 ```
+
+## Ingest a rights-cleared full text
+
+See `docs/ingestion.md`. Minimal example:
+
+```bash
+python3 scripts/ingest_text.py \
+  --id AF-001 \
+  --source /path/to/rights-cleared-text.txt \
+  --translator "Translator Name" \
+  --source-edition "Edition / source citation" \
+  --rights-status public_domain \
+  --license "Public domain" \
+  --status available
+```
+
+The script updates the project text file, manifest, segment JSONL, canonical JSON/YAML metadata, and reader data copy.
 
 ## Publishing note
 
