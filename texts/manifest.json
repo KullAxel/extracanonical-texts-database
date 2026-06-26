@@ -189,7 +189,29 @@
       "title": "Tobit",
       "path": "texts/english/DC-001.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-001-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-001-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-002",
@@ -210,7 +232,29 @@
       "title": "Wisdom of Solomon",
       "path": "texts/english/DC-004.md",
       "status": "stub_pending_rights_or_source_ingestion",
-      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-004-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
     },
     {
       "id": "DC-005",

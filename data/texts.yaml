@@ -603,6 +603,23 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-001.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-001-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/DC-001-simple.md
+    status: available
+    translator: Simplified for modern readers
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-002
   title_standard: Judith
   title_alternatives: []
@@ -762,6 +779,23 @@ texts:
       compare with NRSVUE for readability.
   project_text_path: texts/english/DC-004.md
   project_text_status: stub_pending_rights_or_source_ingestion
+  versions:
+  - type: literal
+    path: texts/versions/DC-004-literal.md
+    status: available
+    translator: Public domain older English
+    source_edition: Public domain base
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
+  - type: simple
+    path: texts/versions/DC-004-simple.md
+    status: available
+    translator: Simplified for modern readers
+    source_edition: Based on public domain
+    rights_status: public_domain
+    license: Public domain
+    segment_count: 3
 - id: DC-005
   title_standard: Sirach
   title_alternatives:
