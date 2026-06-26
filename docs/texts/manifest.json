@@ -1,0 +1,1344 @@
+{
+  "version": "0.3-local",
+  "generated_on": "2026-06-25",
+  "texts": [
+    {
+      "id": "AF-001",
+      "title": "1 Clement",
+      "path": "texts/english/AF-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-001-literal.md",
+          "status": "available",
+          "translator": "Roberts and Donaldson (modernized)",
+          "source_edition": "Ante-Nicene Fathers public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-001-simple.md",
+          "status": "available",
+          "translator": "Simplified by Hermes for study",
+          "source_edition": "Simplified from public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 5
+        }
+      ]
+    },
+    {
+      "id": "AF-002",
+      "title": "2 Clement",
+      "path": "texts/english/AF-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-002-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-002-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-003",
+      "title": "Didache",
+      "path": "texts/english/AF-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-003-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain text",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-004",
+      "title": "Epistle of Barnabas",
+      "path": "texts/english/AF-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-004-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-005",
+      "title": "Shepherd of Hermas",
+      "path": "texts/english/AF-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-005-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-006",
+      "title": "Epistles of Ignatius of Antioch",
+      "path": "texts/english/AF-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-006-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-006-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-007",
+      "title": "Polycarp to Philippians and Martyrdom of Polycarp",
+      "path": "texts/english/AF-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-007-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 4
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-007-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "AF-008",
+      "title": "Epistle to Diognetus",
+      "path": "texts/english/AF-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Michael W. Holmes, The Apostolic Fathers: Greek Texts and English Translations, 3rd ed. (Baker Academic, 2007), with Bart D. Ehrman, Loeb Classical Library Apostolic Fathers as comparison.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/AF-008-literal.md",
+          "status": "available",
+          "translator": "Roberts-Donaldson public domain",
+          "source_edition": "Ante-Nicene Fathers",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/AF-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-001",
+      "title": "Tobit",
+      "path": "texts/english/DC-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-001-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-001-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-002",
+      "title": "Judith",
+      "path": "texts/english/DC-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-002-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-003",
+      "title": "Greek Esther Additions",
+      "path": "texts/english/DC-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-004",
+      "title": "Wisdom of Solomon",
+      "path": "texts/english/DC-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-004-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for modern readers",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-005",
+      "title": "Sirach",
+      "path": "texts/english/DC-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-005-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-006",
+      "title": "Baruch and Letter of Jeremiah",
+      "path": "texts/english/DC-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-006-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-007",
+      "title": "Additions to Daniel: Prayer of Azariah",
+      "path": "texts/english/DC-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-007-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-008",
+      "title": "1 Maccabees",
+      "path": "texts/english/DC-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-008-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/DC-008-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-009",
+      "title": "2 Maccabees",
+      "path": "texts/english/DC-009.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-009-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-010",
+      "title": "3 Maccabees",
+      "path": "texts/english/DC-010.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-010-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-011",
+      "title": "4 Maccabees",
+      "path": "texts/english/DC-011.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-011-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-012",
+      "title": "1 Esdras",
+      "path": "texts/english/DC-012.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-012-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-013",
+      "title": "2 Esdras",
+      "path": "texts/english/DC-013.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+    },
+    {
+      "id": "DC-014",
+      "title": "Prayer of Manasseh",
+      "path": "texts/english/DC-014.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/DC-014-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "DC-015",
+      "title": "Psalm 151 and Syriac Psalms 152–155",
+      "path": "texts/english/DC-015.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "NETS: A New English Translation of the Septuagint, ed. Albert Pietersma and Benjamin G. Wright (Oxford University Press, 2007), with NRSV/NRSVue Apocrypha as a comparison translation."
+    },
+    {
+      "id": "DSS-001",
+      "title": "Community Rule",
+      "path": "texts/english/DSS-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-002",
+      "title": "Damascus Document",
+      "path": "texts/english/DSS-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-003",
+      "title": "War Scroll",
+      "path": "texts/english/DSS-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-004",
+      "title": "Thanksgiving Hymns",
+      "path": "texts/english/DSS-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-005",
+      "title": "Pesher Habakkuk",
+      "path": "texts/english/DSS-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-006",
+      "title": "Temple Scroll",
+      "path": "texts/english/DSS-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-007",
+      "title": "Genesis Apocryphon",
+      "path": "texts/english/DSS-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-008",
+      "title": "4QMMT",
+      "path": "texts/english/DSS-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-009",
+      "title": "Songs of the Sabbath Sacrifice",
+      "path": "texts/english/DSS-009.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-010",
+      "title": "Aramaic Levi Document",
+      "path": "texts/english/DSS-010.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-011",
+      "title": "Book of Giants",
+      "path": "texts/english/DSS-011.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-012",
+      "title": "New Jerusalem texts",
+      "path": "texts/english/DSS-012.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-013",
+      "title": "Rule of the Congregation",
+      "path": "texts/english/DSS-013.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-014",
+      "title": "Rule of Blessings",
+      "path": "texts/english/DSS-014.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-015",
+      "title": "Copper Scroll",
+      "path": "texts/english/DSS-015.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-016",
+      "title": "11QMelchizedek",
+      "path": "texts/english/DSS-016.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-017",
+      "title": "Instruction",
+      "path": "texts/english/DSS-017.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-018",
+      "title": "Prayer of Nabonidus",
+      "path": "texts/english/DSS-018.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-019",
+      "title": "Apocryphal Psalms",
+      "path": "texts/english/DSS-019.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-020",
+      "title": "Barkhi Nafshi",
+      "path": "texts/english/DSS-020.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-021",
+      "title": "Pesher Nahum",
+      "path": "texts/english/DSS-021.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-022",
+      "title": "Pesher Isaiah",
+      "path": "texts/english/DSS-022.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-023",
+      "title": "Mishmarot and calendrical texts",
+      "path": "texts/english/DSS-023.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-024",
+      "title": "Florilegium",
+      "path": "texts/english/DSS-024.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "DSS-COLL-001",
+      "title": "Dead Sea Scrolls biblical manuscripts, collection-level control record",
+      "path": "texts/english/DSS-COLL-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Florentino García Martínez and Eibert J. C. Tigchelaar, The Dead Sea Scrolls Study Edition, 2 vols. (Brill/Eerdmans, 1997–1998)."
+    },
+    {
+      "id": "NH-001",
+      "title": "Apocryphon of John",
+      "path": "texts/english/NH-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-002",
+      "title": "Hypostasis of the Archons",
+      "path": "texts/english/NH-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-003",
+      "title": "On the Origin of the World",
+      "path": "texts/english/NH-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-004",
+      "title": "Gospel of the Egyptians",
+      "path": "texts/english/NH-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-005",
+      "title": "Apocalypse of Adam",
+      "path": "texts/english/NH-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-006",
+      "title": "Three Steles of Seth",
+      "path": "texts/english/NH-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-007",
+      "title": "Zostrianos",
+      "path": "texts/english/NH-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-008",
+      "title": "Allogenes",
+      "path": "texts/english/NH-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-009",
+      "title": "Trimorphic Protennoia",
+      "path": "texts/english/NH-009.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-010",
+      "title": "Thunder, Perfect Mind",
+      "path": "texts/english/NH-010.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-011",
+      "title": "Second Treatise of the Great Seth",
+      "path": "texts/english/NH-011.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-012",
+      "title": "Coptic Apocalypse of Peter",
+      "path": "texts/english/NH-012.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-013",
+      "title": "Sophia of Jesus Christ",
+      "path": "texts/english/NH-013.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-014",
+      "title": "Eugnostos the Blessed",
+      "path": "texts/english/NH-014.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-015",
+      "title": "Pistis Sophia",
+      "path": "texts/english/NH-015.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-016",
+      "title": "Books of Jeu",
+      "path": "texts/english/NH-016.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-017",
+      "title": "Dialogue of the Savior",
+      "path": "texts/english/NH-017.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-018",
+      "title": "Exegesis on the Soul",
+      "path": "texts/english/NH-018.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-019",
+      "title": "Authoritative Teaching",
+      "path": "texts/english/NH-019.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-020",
+      "title": "Tripartite Tractate",
+      "path": "texts/english/NH-020.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-021",
+      "title": "Valentinian Exposition",
+      "path": "texts/english/NH-021.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-022",
+      "title": "Paraphrase of Shem",
+      "path": "texts/english/NH-022.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-023",
+      "title": "Melchizedek",
+      "path": "texts/english/NH-023.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-024",
+      "title": "Thought of Norea",
+      "path": "texts/english/NH-024.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NH-025",
+      "title": "Marsanes",
+      "path": "texts/english/NH-025.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James M. Robinson, ed., The Nag Hammadi Library in English, rev. ed. (HarperOne, 1990), supplemented by Bentley Layton, The Gnostic Scriptures and Brill Coptic Gnostic Library editions."
+    },
+    {
+      "id": "NTA-A-001",
+      "title": "Acts of Paul and Thecla",
+      "path": "texts/english/NTA-A-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-001-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-A-002",
+      "title": "Acts of Peter",
+      "path": "texts/english/NTA-A-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-A-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-A-003",
+      "title": "Acts of John",
+      "path": "texts/english/NTA-A-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-A-004",
+      "title": "Acts of Thomas",
+      "path": "texts/english/NTA-A-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-A-005",
+      "title": "Acts of Andrew",
+      "path": "texts/english/NTA-A-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-AP-001",
+      "title": "Apocalypse of Peter",
+      "path": "texts/english/NTA-AP-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-AP-002",
+      "title": "Apocalypse of Paul",
+      "path": "texts/english/NTA-AP-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-AP-003",
+      "title": "Epistula Apostolorum",
+      "path": "texts/english/NTA-AP-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-E-001",
+      "title": "3 Corinthians",
+      "path": "texts/english/NTA-E-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-E-002",
+      "title": "Epistle to the Laodiceans",
+      "path": "texts/english/NTA-E-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-E-003",
+      "title": "Correspondence of Paul and Seneca",
+      "path": "texts/english/NTA-E-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "J. K. Elliott, The Apocryphal New Testament (Oxford University Press, 1993), supplemented by Tony Burke, New Testament Apocrypha: More Noncanonical Scriptures."
+    },
+    {
+      "id": "NTA-G-001",
+      "title": "Gospel of Thomas",
+      "path": "texts/english/NTA-G-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Simon Gathercole, The Gospel of Thomas: Introduction and Commentary, or Ehrman/Pleše for anthology access; compare Robinson/Layton for Nag Hammadi context.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain / study base",
+          "source_edition": "Public domain style",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-001-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-G-002",
+      "title": "Gospel of Peter",
+      "path": "texts/english/NTA-G-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-002-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-G-003",
+      "title": "Protoevangelium of James",
+      "path": "texts/english/NTA-G-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-003-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-003-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-G-004",
+      "title": "Infancy Gospel of Thomas",
+      "path": "texts/english/NTA-G-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-004-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        },
+        {
+          "type": "simple",
+          "path": "texts/versions/NTA-G-004-simple.md",
+          "status": "available",
+          "translator": "Simplified for study",
+          "source_edition": "Based on public domain",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-G-005",
+      "title": "Gospel of Mary",
+      "path": "texts/english/NTA-G-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/NTA-G-005-literal.md",
+          "status": "available",
+          "translator": "Public domain older English",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "NTA-G-006",
+      "title": "Gospel of Judas",
+      "path": "texts/english/NTA-G-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "NTA-G-007",
+      "title": "Gospel of Philip",
+      "path": "texts/english/NTA-G-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "NTA-G-008",
+      "title": "Gospel of Truth",
+      "path": "texts/english/NTA-G-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "NTA-G-009",
+      "title": "Jewish-Christian Gospels: Hebrews, Nazarenes, Ebionites",
+      "path": "texts/english/NTA-G-009.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "NTA-G-010",
+      "title": "Egerton Gospel",
+      "path": "texts/english/NTA-G-010.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "NTA-G-011",
+      "title": "Secret Gospel of Mark",
+      "path": "texts/english/NTA-G-011.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Bart D. Ehrman and Zlatko Pleše, The Apocryphal Gospels: Texts and Translations (Oxford University Press, 2011), supplemented by J. K. Elliott and Tony Burke volumes."
+    },
+    {
+      "id": "PSE-001",
+      "title": "1 Enoch",
+      "path": "texts/english/PSE-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "George W. E. Nickelsburg and James C. VanderKam, 1 Enoch: The Hermeneia Translation (Fortress), with Charlesworth OTP for anthology access.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-001-literal.md",
+          "status": "available",
+          "translator": "Older public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "PSE-002",
+      "title": "Jubilees",
+      "path": "texts/english/PSE-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James C. VanderKam, The Book of Jubilees (critical translation/commentary), with Charlesworth OTP as anthology access.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-002-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "PSE-003",
+      "title": "Testaments of the Twelve Patriarchs",
+      "path": "texts/english/PSE-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable.",
+      "versions": [
+        {
+          "type": "literal",
+          "path": "texts/versions/PSE-003-literal.md",
+          "status": "available",
+          "translator": "Public domain style",
+          "source_edition": "Public domain base",
+          "rights_status": "public_domain",
+          "license": "Public domain",
+          "segment_count": 3
+        }
+      ]
+    },
+    {
+      "id": "PSE-004",
+      "title": "Testament of Moses",
+      "path": "texts/english/PSE-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-005",
+      "title": "Life of Adam and Eve",
+      "path": "texts/english/PSE-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-006",
+      "title": "Psalms of Solomon",
+      "path": "texts/english/PSE-006.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-007",
+      "title": "Odes of Solomon",
+      "path": "texts/english/PSE-007.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-008",
+      "title": "Sibylline Oracles, Jewish",
+      "path": "texts/english/PSE-008.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-009",
+      "title": "Apocalypse of Abraham",
+      "path": "texts/english/PSE-009.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-010",
+      "title": "2 Baruch",
+      "path": "texts/english/PSE-010.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-011",
+      "title": "3 Baruch",
+      "path": "texts/english/PSE-011.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-012",
+      "title": "Ascension of Isaiah",
+      "path": "texts/english/PSE-012.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-013",
+      "title": "Joseph and Aseneth",
+      "path": "texts/english/PSE-013.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-014",
+      "title": "Ladder of Jacob",
+      "path": "texts/english/PSE-014.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "PSE-015",
+      "title": "3 Enoch",
+      "path": "texts/english/PSE-015.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "James H. Charlesworth, ed., The Old Testament Pseudepigrapha, 2 vols. (Doubleday, 1983–1985), supplemented by Old Testament Pseudepigrapha: More Noncanonical Scriptures where applicable."
+    },
+    {
+      "id": "REL-001",
+      "title": "Samaritan Pentateuch textual tradition",
+      "path": "texts/english/REL-001.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
+    },
+    {
+      "id": "REL-002",
+      "title": "Memar Marqah",
+      "path": "texts/english/REL-002.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
+    },
+    {
+      "id": "REL-003",
+      "title": "Mandaean Ginza Rabba",
+      "path": "texts/english/REL-003.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
+    },
+    {
+      "id": "REL-004",
+      "title": "Hekhalot Rabbati",
+      "path": "texts/english/REL-004.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
+    },
+    {
+      "id": "REL-005",
+      "title": "Sefer Yetzirah",
+      "path": "texts/english/REL-005.md",
+      "status": "stub_pending_rights_or_source_ingestion",
+      "recommended_english_translation": "Use text-specific specialist translations: Samaritan Pentateuch editions by Tal/Florentin; Memar Marqah by Macdonald; Ginza Rabba by Lidzbarski/Gelbert; Hekhalot by Schäfer/Davila; Sefer Yetzirah by Hayman/Gruenwald."
+    }
+  ],
+  "updated_on": "2026-06-25"
+}

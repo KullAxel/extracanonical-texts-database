@@ -88,7 +88,10 @@ async function showDocument(doc) {
               class="tab-button px-5 py-2 border-b-2 ${active} font-medium text-sm">
         ${v.type === 'literal' ? 'Literal' : v.type === 'simple' ? 'Simple English' : v.type.toUpperCase()}
       </button>`;
-    const textPath = v.path.startsWith('http') ? v.path : '../' + v.path;
+    // GitHub Pages publishes /docs as the site root. scripts/sync_docs_assets.py
+    // mirrors texts/versions into docs/texts/versions, so catalog paths like
+    // texts/versions/AF-001-literal.md are directly fetchable from the page.
+    const textPath = v.path.startsWith('http') ? v.path : v.path;
     contentHTML += `
       <div id="tab-${v.type}" class="tab-content hidden">
         <div class="bg-zinc-900 rounded-3xl p-8 text-zinc-300 leading-relaxed whitespace-pre-wrap text-[15px] font-light">

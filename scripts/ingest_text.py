@@ -11,6 +11,7 @@ import argparse
 import datetime as _dt
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 from typing import Any
@@ -161,6 +162,16 @@ def update_manifest(root: Path, entry: dict[str, Any], args: argparse.Namespace,
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def sync_single_docs_asset(root: Path, rel_path: Path) -> None:
+    """Mirror a generated text asset under docs/ so GitHub Pages can serve it."""
+    src = root / rel_path
+    if not src.exists():
+        return
+    dst = root / "docs" / rel_path
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+
+
 def ingest(args: argparse.Namespace) -> int:
     root = Path(args.root).resolve()
     source = Path(args.source).resolve()
@@ -185,6 +196,10 @@ def ingest(args: argparse.Namespace) -> int:
     update_entry_versions(entry, args.version_type, text_path, root, args, len(segments))
     update_manifest(root, entry, args, len(segments))
     save_catalog(root, catalog)
+    segment_rel = Path("texts") / "segments" / f"{args.id}-{args.version_type}.jsonl"
+    sync_single_docs_asset(root, text_path.relative_to(root))
+    sync_single_docs_asset(root, segment_rel)
+    sync_single_docs_asset(root, Path("texts") / "manifest.json")
     print(f"ingested {args.id} ({args.version_type}): {text_path.relative_to(root)} ({len(segments)} segments)")
     return 0
 
