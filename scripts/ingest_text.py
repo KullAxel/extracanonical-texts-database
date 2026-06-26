@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Ingest a rights-cleared English text into the project reader corpus.
+"""Ingest a rights-cleared English text into the project reader corpus with version support.
 
-This script intentionally refuses copyrighted/uncleared sources unless --force is
-provided. It updates the project text file, JSON catalog, docs JSON copy,
-manifest, and paragraph-level JSONL segments used by future search/AI tooling.
+Supports --version-type original|literal|simple (default: literal).
+Stores text at texts/versions/<ID>-<version-type>.md and updates the entry's 'versions' array.
+Refuses copyrighted sources unless --force is used after a rights decision.
 """
 from __future__ import annotations
 
@@ -17,11 +17,12 @@ from typing import Any
 
 try:
     import yaml  # type: ignore
-except ModuleNotFoundError:  # keep script usable with stdlib only
+except ModuleNotFoundError:
     yaml = None
 
-CLEARED_RIGHTS = {"public_domain", "open_license", "permission_granted", "project_owner_cleared"}
-VALID_STATUS = {"available", "partial"}
+VALID_VERSION_TYPES = {'original', 'literal', 'simple'}
+CLEARED_RIGHTS = {'public_domain', 'open_license', 'permission_granted', 'project_owner_cleared'}
+VALID_STATUS = {'available', 'partial'}
 
 
 def load_catalog(root: Path) -> dict[str, Any]:
@@ -50,8 +51,6 @@ def find_entry(catalog: dict[str, Any], text_id: str) -> dict[str, Any]:
 
 
 def yaml_scalar(value: str) -> str:
-    # Keep common human-readable values plain in front matter; quote only values
-    # that are empty or contain characters likely to confuse simple YAML parsers.
     if value and re.fullmatch(r"[A-Za-z0-9 .,_:;()\-/]+", value):
         return value
     escaped = value.replace('"', '\\"')
@@ -66,6 +65,7 @@ def build_markdown(entry: dict[str, Any], source_text: str, args: argparse.Names
         "---\n"
         f"id: {args.id}\n"
         f"title: {yaml_scalar(title)}\n"
+        f"version_type: {args.version_type}\n"
         f"status: {args.status}\n"
         f"translator: {yaml_scalar(args.translator or '')}\n"
         f"source_edition: {yaml_scalar(args.source_edition or '')}\n"
@@ -74,7 +74,7 @@ def build_markdown(entry: dict[str, Any], source_text: str, args: argparse.Names
         f"source_file: {yaml_scalar(str(Path(args.source).name))}\n"
         f"ingested_on: {ingested_on}\n"
         "---\n\n"
-        f"# {title}\n\n"
+        f"# {title} — {args.version_type.title()} Version\n\n"
         f"Translation/source: {args.source_edition or 'unspecified'}\n\n"
         f"Translator: {args.translator or 'unspecified'}\n\n"
         f"Rights/license basis: {args.rights_status}; {args.license or 'unspecified'}\n\n"
@@ -83,28 +83,62 @@ def build_markdown(entry: dict[str, Any], source_text: str, args: argparse.Names
     )
 
 
-def segment_text(text_id: str, title: str, markdown: str) -> list[dict[str, Any]]:
-    # Strip front matter and top metadata, then split on blank lines. This is a
-    # conservative paragraph-level segmentation suitable for first-pass search.
+def segment_text(text_id: str, title: str, markdown: str, version_type: str) -> list[dict[str, Any]]:
     content = re.sub(r"^---\n.*?\n---\n", "", markdown, flags=re.S)
     content = re.sub(r"^# .+?\n+", "", content, count=1)
     parts = [p.strip() for p in re.split(r"\n\s*\n", content) if p.strip()]
     segments = []
     for idx, part in enumerate(parts, 1):
-        if part.startswith("Translation/source:") or part.startswith("Translator:") or part.startswith("Rights/license basis:") or part == "## Text":
+        if any(part.startswith(prefix) for prefix in ["Translation/source:", "Translator:", "Rights/license basis:", "## Text"]):
             continue
-        segments.append({"id": text_id, "title": title, "segment_index": len(segments) + 1, "text": part})
+        segments.append({"id": text_id, "title": title, "version_type": version_type, "segment_index": len(segments) + 1, "text": part})
     return segments
 
 
-def write_segments(root: Path, text_id: str, segments: list[dict[str, Any]]) -> None:
+def write_text_file(root: Path, text_id: str, version_type: str, markdown: str) -> Path:
+    version_dir = root / "texts" / "versions"
+    version_dir.mkdir(parents=True, exist_ok=True)
+    path = version_dir / f"{text_id}-{version_type}.md"
+    path.write_text(markdown, encoding="utf-8")
+    return path
+
+
+def write_segments(root: Path, text_id: str, version_type: str, segments: list[dict[str, Any]]) -> None:
     seg_dir = root / "texts" / "segments"
     seg_dir.mkdir(parents=True, exist_ok=True)
-    path = seg_dir / f"{text_id}.jsonl"
+    path = seg_dir / f"{text_id}-{version_type}.jsonl"
     path.write_text("".join(json.dumps(s, ensure_ascii=False) + "\n" for s in segments), encoding="utf-8")
 
 
-def update_manifest(root: Path, entry: dict[str, Any], args: argparse.Namespace, segments: list[dict[str, Any]]) -> None:
+def update_entry_versions(entry: dict[str, Any], version_type: str, text_path: Path, root: Path, args: argparse.Namespace, segments_count: int) -> None:
+    if 'versions' not in entry:
+        entry['versions'] = []
+    rel_path = str(text_path.relative_to(root))
+    for v in entry['versions']:
+        if v.get('type') == version_type:
+            v.update({
+                'path': rel_path,
+                'status': args.status,
+                'translator': args.translator or '',
+                'source_edition': args.source_edition or '',
+                'rights_status': args.rights_status,
+                'license': args.license or '',
+                'segment_count': segments_count,
+            })
+            return
+    entry['versions'].append({
+        'type': version_type,
+        'path': rel_path,
+        'status': args.status,
+        'translator': args.translator or '',
+        'source_edition': args.source_edition or '',
+        'rights_status': args.rights_status,
+        'license': args.license or '',
+        'segment_count': segments_count,
+    })
+
+
+def update_manifest(root: Path, entry: dict[str, Any], args: argparse.Namespace, segments_count: int) -> None:
     manifest_path = root / "texts" / "manifest.json"
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -119,21 +153,11 @@ def update_manifest(root: Path, entry: dict[str, Any], args: argparse.Namespace,
     if row is None:
         row = {"id": args.id, "title": entry.get("title_standard", args.id)}
         rows.append(row)
-    row.update(
-        {
-            "title": entry.get("title_standard", args.id),
-            "path": entry.get("project_text_path", f"texts/english/{args.id}.md"),
-            "status": args.status,
-            "translator": args.translator or "",
-            "source_edition": args.source_edition or "",
-            "rights_status": args.rights_status,
-            "license": args.license or "",
-            "segment_path": f"texts/segments/{args.id}.jsonl",
-            "segment_count": len(segments),
-        }
-    )
+    row.update({
+        "title": entry.get("title_standard", args.id),
+        "versions": entry.get("versions", []),
+    })
     manifest["updated_on"] = _dt.date.today().isoformat()
-    manifest_path.parent.mkdir(parents=True, exist_ok=True)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -142,37 +166,26 @@ def ingest(args: argparse.Namespace) -> int:
     source = Path(args.source).resolve()
     if not source.exists():
         raise SystemExit(f"source file not found: {source}")
+    if args.version_type not in VALID_VERSION_TYPES:
+        raise SystemExit(f"version-type must be one of {sorted(VALID_VERSION_TYPES)}")
     if args.status not in VALID_STATUS:
         raise SystemExit(f"status must be one of {sorted(VALID_STATUS)}")
     if args.rights_status not in CLEARED_RIGHTS and not args.force:
         raise SystemExit(
-            f"refusing to ingest {args.id}: rights-status {args.rights_status!r} is not cleared. "
+            f"refusing to ingest {args.id} ({args.version_type}): rights-status {args.rights_status!r} is not cleared. "
             "Use public_domain/open_license/permission_granted/project_owner_cleared or pass --force after a rights decision."
         )
     catalog = load_catalog(root)
     entry = find_entry(catalog, args.id)
     source_text = source.read_text(encoding=args.encoding)
     markdown = build_markdown(entry, source_text, args)
-    text_path = root / entry.get("project_text_path", f"texts/english/{args.id}.md")
-    text_path.parent.mkdir(parents=True, exist_ok=True)
-    text_path.write_text(markdown, encoding="utf-8")
-
-    tr = entry.setdefault("translation_access", {})
-    tr["translation_rights_status"] = args.rights_status
-    tr["full_text_hosting_allowed"] = "yes" if args.rights_status in CLEARED_RIGHTS or args.force else "rights_review_required"
-    tr["full_text_url"] = entry.get("project_text_path", f"texts/english/{args.id}.md")
-    if args.source_url:
-        tr["public_domain_or_open_access_text_url"] = args.source_url
-    notes = tr.get("translation_notes", "")
-    addition = f"Ingested {args.status} project text from {args.source_edition or source.name}; translator: {args.translator or 'unspecified'}; rights basis: {args.rights_status}."
-    tr["translation_notes"] = (notes.rstrip() + " " + addition).strip()
-    entry["project_text_status"] = args.status
-
-    segments = segment_text(args.id, entry.get("title_standard", args.id), markdown)
-    write_segments(root, args.id, segments)
-    update_manifest(root, entry, args, segments)
+    text_path = write_text_file(root, args.id, args.version_type, markdown)
+    segments = segment_text(args.id, entry.get("title_standard", args.id), markdown, args.version_type)
+    write_segments(root, args.id, args.version_type, segments)
+    update_entry_versions(entry, args.version_type, text_path, root, args, len(segments))
+    update_manifest(root, entry, args, len(segments))
     save_catalog(root, catalog)
-    print(f"ingested {args.id}: {text_path.relative_to(root)} ({len(segments)} segments)")
+    print(f"ingested {args.id} ({args.version_type}): {text_path.relative_to(root)} ({len(segments)} segments)")
     return 0
 
 
@@ -180,6 +193,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", default=".", help="Project root; defaults to current directory")
     parser.add_argument("--id", required=True, help="Database text ID, e.g. AF-001")
+    parser.add_argument("--version-type", default="literal", choices=sorted(VALID_VERSION_TYPES), help="Version type (default: literal)")
     parser.add_argument("--source", required=True, help="UTF-8 plain-text source file to ingest")
     parser.add_argument("--encoding", default="utf-8", help="Source encoding; default utf-8")
     parser.add_argument("--translator", default="", help="Translator name")
